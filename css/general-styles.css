@@ -1,0 +1,657 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  
+  /*-----------------------------------------*/
+  section.one .container {
+    width: 92%;
+    margin: 0 auto;
+  }
+  
+  section.one .container .row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  
+  section.one .container .row .col-4 {
+    width: 25%;
+    padding: 15px;
+  }
+  
+  section.one .container .row .col-8 {
+    width: 75%;
+    padding: 15px;
+  }
+  
+  section.one .container .row .col-12 {
+    width: 100%;
+    padding: 15px;
+  }
+  
+  @media all and (max-width: 768px) {
+    section.one .container {
+      width: 95%;
+    }
+    section.one .container .row .col-4 {
+      width: 30%;
+      padding: 12px;
+    }
+    section.one .container .row .col-8 {
+      width: 70%;
+      padding: 12px;
+    }
+    section.one .container .row .col-12 {
+      padding: 12px;
+    }
+  }
+  
+  @media all and (max-width: 576px) {
+    section.one .container {
+      width: 98%;
+    }
+    section.one .container .row .col-4, section.one .container .row .col-8 {
+      width: 100%;
+      padding: 8px;
+    }
+    section.one .container .row .col-12 {
+      padding: 8px;
+    }
+  }
+  
+  /*-----------------------------------------*/
+  /*-----------------------------------------*/
+  section.two .container {
+    width: 92%;
+    margin: 0 auto;
+  }
+  
+  section.two .container .row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  
+  section.two .container .row .col-4 {
+    width: 25%;
+    padding: 15px;
+  }
+  
+  section.two .container .row .col-8 {
+    width: 75%;
+  }
+  
+  section.two .container .row .col-8 .row .col-12 {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+  }
+  
+  @media all and (max-width: 768px) {
+    section.two .container {
+      width: 95%;
+    }
+    section.two .container .row .col-4 {
+      width: 30%;
+      padding: 12px;
+    }
+    section.two .container .row .col-8 {
+      width: 70%;
+    }
+    section.two .container .row .col-8 .row .col-12 {
+      padding: 12px;
+      margin-bottom: 12px;
+    }
+  }
+  
+  @media all and (max-width: 576px) {
+    section.two .container {
+      width: 98%;
+    }
+    section.two .container .row .col-4 {
+      width: 100%;
+      padding: 8px;
+    }
+    section.two .container .row .col-8 {
+      width: 100%;
+    }
+    section.two .container .row .col-8 .row .col-12 {
+      padding: 8px;
+      margin-bottom: 8px;
+    }
+  }
+  
+  /*-----------------------------------------*/
+  /*-----------------------------------------*/
+  section.three .container {
+    width: 92%;
+    margin: 0 auto;
+  }
+  
+  section.three .container .row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  
+  section.three .container .row .col-12 {
+    width: 100%;
+    padding: 15px;
+  }
+  
+  section.three .container .row .col-6 {
+    padding: 15px;
+    width: 50%;
+  }
+  
+  @media all and (max-width: 768px) {
+    section.three .container {
+      width: 95%;
+    }
+    section.three .container .row .col-12 {
+      padding: 12px;
+    }
+    section.three .container .row .col-6 {
+      padding: 12px;
+    }
+  }
+  
+  @media all and (max-width: 576px) {
+    section.three .container {
+      width: 98%;
+    }
+    section.three .container .row .col-12 {
+      padding: 8px;
+    }
+    section.three .container .row .col-6 {
+      width: 100%;
+      padding: 8px;
+    }
+  }
+  
+  /*-----------------------------------------*/
+  /*-----------------------------------------*/
+  section.four .container {
+    width: 92%;
+    margin: 0 auto;
+  }
+  
+  section.four .container .row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  
+  section.four .container .row .col-3 {
+    width: 25%;
+    padding: 15px;
+  }
+  
+  section.four .container .row .col-6 {
+    width: 50%;
+    padding: 15px;
+  }
+  
+  @media all and (max-width: 768px) {
+    section.four .container {
+      width: 95%;
+    }
+    section.four .container .row .col-3 {
+      width: 27.5%;
+      padding: 12px;
+    }
+    section.four .container .row .col-6 {
+      width: 45%;
+      padding: 12px;
+    }
+  }
+  
+  @media all and (max-width: 576px) {
+    section.four .container {
+      width: 98%;
+    }
+    section.four .container .row .col-3 {
+      width: 100%;
+      padding: 8px;
+    }
+    section.four .container .row .col-6 {
+      width: 100%;
+      padding: 8px;
+    }
+  }
+  
+  /*-----------------------------------------*/
+  /*-----------------------------------------*/
+  section.five .container {
+    width: 92%;
+    margin: 0 auto;
+  }
+  
+  section.five .container .row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  
+  section.five .container .row .col-6 {
+    width: 50%;
+    padding: 15px;
+  }
+  
+  @media all and (max-width: 768px) {
+    section.five .container {
+      width: 95%;
+    }
+    section.five .container .row .col-6 {
+      padding: 12px;
+    }
+  }
+  
+  @media all and (max-width: 576px) {
+    section.five .container {
+      width: 98%;
+    }
+    section.five .container .row .col-6 {
+      width: 100%;
+      padding: 8px;
+    }
+  }
+  
+  /*-----------------------------------------*/
+  /*-----------------------------------------*/
+  section.six .container {
+    width: 92%;
+    margin: 0 auto;
+  }
+  
+  section.six .container .row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    width: 100%;
+  }
+  
+  section.six .container .row .col-4 {
+    width: 30%;
+    padding: 15px;
+  }
+  
+  section.six .container .row .col-8 {
+    width: 70%;
+    padding: 15px;
+  }
+  
+  @media all and (max-width: 768px) {
+    section.six .container {
+      width: 95%;
+    }
+    section.six .container .row .col-4 {
+      padding: 12px;
+      width: 32.5%;
+    }
+    section.six .container .row .col-8 {
+      padding: 12px;
+      width: 67.5%;
+    }
+  }
+  
+  @media all and (max-width: 576px) {
+    section.six .container {
+      width: 98%;
+    }
+    section.six .container .row .col-4, section.six .container .row .col-8 {
+      width: 100%;
+      padding: 8px;
+    }
+  }
+  
+  /*-----------------------------------------*/
+  /*-----------------------------------------*/
+  section.seven .container {
+    width: 92%;
+    margin: 0 auto;
+  }
+  
+  section.seven .container .row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  
+  section.seven .container .row .col-4 {
+    width: 33.33%;
+    padding: 15px;
+  }
+  
+  @media all and (max-width: 768px) {
+    section.seven .container {
+      width: 95%;
+    }
+    section.seven .container .row .col-4 {
+      padding: 12px;
+      width: 50%;
+    }
+  }
+  
+  @media all and (max-width: 576px) {
+    section.seven .container {
+      width: 98%;
+    }
+    section.seven .container .row {
+      margin-bottom: 8px;
+    }
+    section.seven .container .row .col-4 {
+      width: 100%;
+      padding: 8px;
+    }
+  }
+  
+  /*-----------------------------------------*/
+  /*-----------------------------------------*/
+  section.eight .container {
+    width: 92%;
+    margin: 0 auto;
+  }
+  
+  section.eight .container .row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    width: 100%;
+  }
+  
+  section.eight .container .row .col-3 {
+    width: 25%;
+  }
+  
+  section.eight .container .row .col-3 .row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    width: 100%;
+  }
+  
+  section.eight .container .row .col-3 .row .col-12 {
+    padding: 15px;
+    width: 100%;
+  }
+  
+  section.eight .container .row .col-3 .row .col-12:first-child {
+    margin-bottom: 15px;
+  }
+  
+  section.eight .container .row .col-6 {
+    width: 50%;
+    padding: 15px;
+  }
+  
+  @media all and (max-width: 768px) {
+    section.eight .container {
+      width: 95%;
+    }
+    section.eight .container .row .col-3 {
+      width: 27.5%;
+    }
+    section.eight .container .row .col-3 .row .col-12 {
+      padding: 12px;
+    }
+    section.eight .container .row .col-3 .row .col-12:first-child {
+      margin-bottom: 12px;
+    }
+    section.eight .container .row .col-6 {
+      width: 45%;
+      padding: 12px;
+    }
+  }
+  
+  @media all and (max-width: 576px) {
+    section.eight .container {
+      width: 98%;
+    }
+    section.eight .container .row .col-3 {
+      width: 100%;
+      margin-bottom: 8px;
+    }
+    section.eight .container .row .col-3 .row .col-12 {
+      padding: 8px;
+      width: 50%;
+    }
+    section.eight .container .row .col-3 .row .col-12:first-child {
+      margin-bottom: 0px;
+    }
+    section.eight .container .row .col-6 {
+      margin-bottom: 8px;
+      width: 100%;
+      padding: 8px;
+    }
+  }
+  
+  @media all and (max-width: 450px) {
+    section.eight .container {
+      width: 98%;
+    }
+    section.eight .container .row .col-3 {
+      width: 100%;
+      margin-bottom: 8px;
+    }
+    section.eight .container .row .col-3 .row .col-12 {
+      padding: 8px;
+      width: 100%;
+    }
+    section.eight .container .row .col-3 .row .col-12:first-child {
+      margin-bottom: 0px;
+    }
+    section.eight .container .row .col-6 {
+      margin-bottom: 8px;
+      width: 100%;
+      padding: 8px;
+    }
+  }
+  
+  /*-----------------------------------------*/
+  /*-----------------------------------------*/
+  section.nine .container {
+    width: 92%;
+    margin: 0 auto;
+  }
+  
+  section.nine .container .row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    width: 100%;
+  }
+  
+  section.nine .container .row .col-8 {
+    width: 70%;
+    padding: 15px;
+  }
+  
+  section.nine .container .row .col-4 {
+    width: 30%;
+  }
+  
+  section.nine .container .row .col-4 .row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    width: 100%;
+  }
+  
+  section.nine .container .row .col-4 .row .col-12 {
+    width: 100%;
+    padding: 15px;
+  }
+  
+  section.nine .container .row .col-4 .row .col-12:first-child {
+    margin-bottom: 15px;
+  }
+  
+  @media all and (max-width: 768px) {
+    section.nine .container {
+      width: 95%;
+    }
+    section.nine .container .row .col-8 {
+      width: 65%;
+      padding: 12px;
+    }
+    section.nine .container .row .col-4 {
+      width: 35%;
+    }
+    section.nine .container .row .col-4 .row .col-12 {
+      padding: 12px;
+    }
+    section.nine .container .row .col-4 .row .col-12:first-child {
+      margin-bottom: 12px;
+    }
+  }
+  
+  @media all and (max-width: 576px) {
+    section.nine .container {
+      width: 98%;
+    }
+    section.nine .container .row .col-8 {
+      width: 100%;
+      padding: 8px;
+    }
+    section.nine .container .row .col-4 {
+      width: 100%;
+    }
+    section.nine .container .row .col-4 .row .col-12 {
+      width: 50%;
+      padding: 8px;
+    }
+    section.nine .container .row .col-4 .row .col-12:first-child {
+      margin-bottom: 8px;
+    }
+  }
+  
+  @media all and (max-width: 450px) {
+    section.nine .container {
+      width: 98%;
+    }
+    section.nine .container .row .col-8 {
+      width: 100%;
+      padding: 7px;
+    }
+    section.nine .container .row .col-4 {
+      width: 100%;
+    }
+    section.nine .container .row .col-4 .row .col-12 {
+      width: 100%;
+      padding: 7px;
+    }
+    section.nine .container .row .col-4 .row .col-12:first-child {
+      margin-bottom: 7px;
+    }
+  }
+  
+  /*-----------------------------------------*/
+  /*-----------------------------------------*/
+  section.ten .container {
+    width: 92%;
+    margin: 0 auto;
+  }
+  
+  section.ten .container .row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    width: 100%;
+  }
+  
+  section.ten .container .row .col-12 {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+  }
+  
+  section.ten .container .row .col-4 {
+    width: 33.33333%;
+    padding: 15px;
+  }
+  
+  @media all and (max-width: 768px) {
+    section.ten .container {
+      width: 95%;
+    }
+    section.ten .container .row {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+    }
+    section.ten .container .row .col-12 {
+      padding: 12px;
+      margin-bottom: 12px;
+    }
+    section.ten .container .row .col-4 {
+      padding: 12px;
+    }
+    section.ten .container .row .col-4:nth-child(4), section.ten .container .row .col-4:nth-child(3) {
+      width: 50%;
+    }
+    section.ten .container .row .col-4:nth-child(2) {
+      width: 100%;
+    }
+  }
+  
+  @media all and (max-width: 576px) {
+    section.ten .container {
+      width: 95%;
+    }
+    section.ten .container .row {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+    }
+    section.ten .container .row .col-12 {
+      padding: 8px;
+      margin-bottom: 8px;
+    }
+    section.ten .container .row .col-4 {
+      padding: 8px;
+    }
+    section.ten .container .row .col-4:nth-child(4), section.ten .container .row .col-4:nth-child(3) {
+      width: 100%;
+    }
+    section.ten .container .row .col-4:nth-child(2) {
+      width: 100%;
+    }
+  }
+  
+  /*-----------------------------------------*/
+  /*# Edward A. - Skeleton CSS 😛 */

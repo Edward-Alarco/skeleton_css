@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/b72be65822.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/main.css">
+    <title>Skeleton CSS</title>
+</head>
+<body>
+    <section class="main">
+        <h2>Skeleton CSS</h2>
+        <p>- Mini libreria de secciones pre-construidas customizadas -</p>
+        <div class="corner">
+            <a href="#">
+                Fork me on &nbsp;<i class="fab fa-github"></i>
+            </a>                        
+        </div>
+        <div class="button">
+            <div class="bg">
+                <a href="#layouts" class="scroll-suave">
+                    <i class="fas fa-chevron-down"></i>
+                </a>
+            </div>
+        </div>
+        <div class="modal-info">
+            <a href="#" id="btnmodal">
+                <i class="fas fa-info"></i>
+            </a>
+        </div>
+    </section>
+
+    <section class="installation" id="installation">
+        <div class="cerrar">
+            <a href="#" id="btncerrar">
+                <i class="fas fa-times"></i>
+            </a>
+        </div>
+        <div class="container">
+            <h2>Installation</h2>
+            <div class="script">
+                <code>
+&#60;link rel="stylesheet" href=""&#62;
+                </code>
+            </div>
+            <div class="card">
+                <div class="left">
+                    <h3>Instructions</h3>
+                    <ul>
+                        <li>
+                            <i class="fas fa-chevron-right"></i>&nbsp;
+                            Choose the layout that best suits your project.
+                        </li>
+                        <li>
+                            <i class="fas fa-chevron-right"></i>&nbsp;
+                            Copy the HTML code they give you.
+                        </li>
+                        <li>
+                            <i class="fas fa-chevron-right"></i>&nbsp;
+                            Paste it into your project.
+                        </li>
+                    </ul>
+                </div>
+                <div class="rigth">
+                    <h3>Features</h3>
+                    <p>WE DO NOT WORK WITH BOOTSTRAP! But we use the same class names to keep our knowledge sequenced, you don't need to learn new class names.</p>
+                    <p>The library has pre-customized styles, and fully responsive. Ready just to enter your website information</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="layouts">
+        <h2>Layouts</h2>
+        <div class="container" id="layouts">
+            <div class="muestra-de-layouts">
+                <img src="img/Group 1.svg" alt="" class="img-layout">
+                <img src="img/Group 2.svg" alt="" class="img-layout">
+                <img src="img/Group 3.svg" alt="" class="img-layout">
+                <img src="img/Group 4.svg" alt="" class="img-layout">
+                <img src="img/Group 5.svg" alt="" class="img-layout">
+                <img src="img/Group 6.svg" alt="" class="img-layout">
+                <img src="img/Group 7.svg" alt="" class="img-layout">
+                <img src="img/Group 8.svg" alt="" class="img-layout">
+                <img src="img/Group 9.svg" alt="" class="img-layout">
+                <img src="img/Group 10.svg" alt="" class="img-layout">
+            </div>
+        </div>
+    </section>
+
+    <script>
+        const button = document.getElementById('btnmodal');
+        button.addEventListener('click',function(e){
+            e.preventDefault();
+            document.getElementById('installation').style.opacity = '1';
+            document.getElementById('installation').style.left = '0';
+        });
+
+        const buttoncerrar = document.getElementById('btncerrar');
+        buttoncerrar.addEventListener('click',function(e){
+            e.preventDefault();
+            document.getElementById('installation').style.opacity = '0';
+            document.getElementById('installation').style.left = '-100%';
+        });
+    </script>
+    <script src="js/modal.js"></script>
+    <script src="js/scroll.js"></script>
+</body>
+</html>
