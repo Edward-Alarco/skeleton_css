@@ -124,18 +124,45 @@ section.main .modal-info {
   position: absolute;
   top: 0;
   left: 0;
+  border-radius: 50%;
+  margin: 1.5rem;
+  width: 50px;
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #fff;
+  background-color: #333;
+  -webkit-box-shadow: -1px 1px 2px #333;
+          box-shadow: -1px 1px 2px #333;
 }
 
 section.main .modal-info a {
-  margin: 1.5rem;
+  color: #fff;
   display: inline-block;
   text-decoration: none;
-  color: #000;
 }
 
 section.main .modal-info a i.fas {
   font-size: 1.25rem;
   padding: 0.75rem;
+}
+
+section.main div svg {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  z-index: -1000;
+  opacity: 0.2;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  left: 0;
 }
 
 @-webkit-keyframes pulse {
@@ -199,11 +226,11 @@ section.installation .cerrar a {
   margin: 1.5rem;
   display: inline-block;
   text-decoration: none;
-  color: #000;
+  color: #3498db;
 }
 
 section.installation .cerrar a i.fas {
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   padding: 0.75rem;
 }
 
@@ -306,7 +333,7 @@ section.layouts h2 {
 }
 
 section.layouts .container {
-  width: 80%;
+  width: 70%;
   margin: 0 auto;
 }
 

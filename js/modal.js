@@ -40,6 +40,8 @@
             propModal.modal = document.getElementById('modal');
             //Estilos
             propModal.modal.style.width = '40%';
+            propModal.modal.style.borderRadius = '3px';
+            propModal.modal.style.border = '5px solid #696969';
             propModal.modal.style.margin = '0 auto';
             propModal.modal.style.padding = '16px';
             propModal.modal.style.background = 'white';
