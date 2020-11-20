@@ -154,6 +154,25 @@ var code = {
         &#60;/div&#62;
     &#60;/div&#62;
 &#60;/section&#62;`,
+
+    elevenCode: `&#60;section class="eleven"&#62;
+    &#60;div class="container"&#62;
+        &#60;div&#62;&#60;/div&#62;
+        &#60;div&#62;&#60;/div&#62;
+        &#60;div&#62;&#60;/div&#62;
+        &#60;div&#62;&#60;/div&#62;
+        &#60;div&#62;&#60;/div&#62;
+    &#60;/div&#62;
+&#60;/section&#62;`,
+
+    twelveCode: `&#60;section class="twelve"&#62;
+    &#60;div class="container"&#62;
+        &#60;div&#62;&#60;/div&#62;
+        &#60;div&#62;&#60;/div&#62;
+        &#60;div&#62;&#60;/div&#62;
+        &#60;div&#62;&#60;/div&#62;
+    &#60;/div&#62;
+&#60;/section&#62;`
 }
 
 var metCode4Modal = {
@@ -187,6 +206,12 @@ var metCode4Modal = {
         })
         document.getElementsByClassName('img-layout')[9].addEventListener('click',function(){
             document.getElementById('code').innerHTML = "<pre>"+code.tenCode+"</pre>";
+        })
+        document.getElementsByClassName('img-layout')[10].addEventListener('click',function(){
+            document.getElementById('code').innerHTML = "<pre>"+code.elevenCode+"</pre>";
+        })
+        document.getElementsByClassName('img-layout')[11].addEventListener('click',function(){
+            document.getElementById('code').innerHTML = "<pre>"+code.twelveCode+"</pre>";
         })
     }
 }

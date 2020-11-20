@@ -650,6 +650,166 @@
       width: 100%;
     }
   }
+
+  /*-----------------------------------------*/
+section.eleven .container {
+  width: 92%;
+  margin: 0 auto;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  -ms-grid-rows: (1fr)[3];
+      grid-template-rows: repeat(3, 1fr);
+  grid-gap: 20px 10px;
+}
+
+section.eleven .container div:nth-child(1) {
+  padding: 15px;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-column: 1/2;
+}
+
+section.eleven .container div:nth-child(2) {
+  padding: 15px;
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 1;
+  grid-column: 3/4;
+}
+
+section.eleven .container div:nth-child(3) {
+  padding: 15px;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-column: 2/3;
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+  grid-row: 2/3;
+}
+
+section.eleven .container div:nth-child(4) {
+  padding: 15px;
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 1;
+  grid-row: 3/4;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-column: 1/2;
+}
+
+section.eleven .container div:nth-child(5) {
+  padding: 15px;
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 1;
+  grid-row: 3/4;
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 1;
+  grid-column: 3/4;
+}
+
+@media all and (max-width: 768px) {
+  section.eleven .container {
+    width: 95%;
+    grid-gap: 15px 7.5px;
+  }
+  section.eleven .container div:nth-child(1), section.eleven .container div:nth-child(2), section.eleven .container div:nth-child(3), section.eleven .container div:nth-child(4), section.eleven .container div:nth-child(5) {
+    padding: 12px;
+  }
+}
+
+@media all and (max-width: 576px) {
+  section.eleven .container {
+    width: 98%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    grid-gap: 10px 5px;
+  }
+  section.eleven .container div:nth-child(1), section.eleven .container div:nth-child(2), section.eleven .container div:nth-child(3), section.eleven .container div:nth-child(4), section.eleven .container div:nth-child(5) {
+    padding: 8px;
+    width: 100%;
+  }
+}
+
+/*-----------------------------------------*/
+/*-----------------------------------------*/
+section.twelve .container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  -ms-grid-rows: (1fr)[3];
+      grid-template-rows: repeat(3, 1fr);
+  grid-gap: 20px 10px;
+}
+
+section.twelve .container div {
+  padding: 15px;
+}
+
+section.twelve .container div:nth-child(1) {
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-column: 2/3;
+}
+
+section.twelve .container div:nth-child(2) {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-column: 1/4;
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+  grid-row: 2/3;
+}
+
+section.twelve .container div:nth-child(3) {
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 1;
+  grid-row: 3/4;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-column: 1/2;
+}
+
+section.twelve .container div:nth-child(4) {
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 1;
+  grid-row: 3/4;
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 1;
+  grid-column: 3/4;
+}
+
+@media all and (max-width: 768px) {
+  section.twelve .container {
+    grid-gap: 15px 7.5px;
+  }
+  section.twelve .container div {
+    padding: 12px;
+  }
+}
+
+@media all and (max-width: 576px) {
+  section.twelve .container {
+    grid-gap: 10px 5px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  section.twelve .container div {
+    padding: 8px;
+    width: 100%;
+  }
+}
   
   /*-----------------------------------------*/
   /*# Edward A. - Skeleton CSS 😛 */

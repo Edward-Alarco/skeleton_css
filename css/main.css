@@ -321,19 +321,61 @@ section.installation .container .card .rigth p {
 }
 
 section.layouts {
-  width: 100%;
-  margin: 4rem 0;
+  width: 90%;
+  margin: 4rem auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
-section.layouts h2 {
-  text-align: center;
-  font-size: 2.5rem;
+section.layouts .filters {
+  width: 20%;
+}
+
+section.layouts .filters h2 {
+  font-size: 2rem;
   letter-spacing: 1px;
-  color: #3498db;
+  color: #696969;
+}
+
+section.layouts .filters .botones-filtros {
+  width: 100%;
+  margin-top: 1.25rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+section.layouts .filters .botones-filtros button {
+  display: inline-block;
+  border-radius: 2px;
+  width: 100%;
+  background: none;
+  color: #222;
+  font-size: 0.9rem;
+  text-align: left;
+  padding: 10px 2px;
+  margin-bottom: 1rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+section.layouts .filters .botones-filtros button:active {
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
 }
 
 section.layouts .container {
-  width: 70%;
+  width: 80%;
   margin: 0 auto;
 }
 
