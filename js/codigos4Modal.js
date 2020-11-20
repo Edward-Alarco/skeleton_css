@@ -155,3 +155,40 @@ var code = {
     &#60;/div&#62;
 &#60;/section&#62;`,
 }
+
+var metCode4Modal = {
+    inicio:function(){
+        document.getElementsByClassName('img-layout')[0].addEventListener('click',function(){
+            document.getElementById('code').innerHTML = "<pre>"+code.firstCode+"</pre>";
+        })
+        document.getElementsByClassName('img-layout')[1].addEventListener('click',function(){
+            document.getElementById('code').innerHTML = "<pre>"+code.secondCode+"</pre>";
+        })
+        document.getElementsByClassName('img-layout')[2].addEventListener('click',function(){
+            document.getElementById('code').innerHTML = "<pre>"+code.thirdCode+"</pre>";
+        })
+        document.getElementsByClassName('img-layout')[3].addEventListener('click',function(){
+            document.getElementById('code').innerHTML = "<pre>"+code.fourthCode+"</pre>";
+        })
+        document.getElementsByClassName('img-layout')[4].addEventListener('click',function(){
+            document.getElementById('code').innerHTML = "<pre>"+code.fiveCode+"</pre>";
+        })
+        document.getElementsByClassName('img-layout')[5].addEventListener('click',function(){
+            document.getElementById('code').innerHTML = "<pre>"+code.sixCode+"</pre>";
+        })
+        document.getElementsByClassName('img-layout')[6].addEventListener('click',function(){
+            document.getElementById('code').innerHTML = "<pre>"+code.sevenCode+"</pre>";
+        })
+        document.getElementsByClassName('img-layout')[7].addEventListener('click',function(){
+            document.getElementById('code').innerHTML = "<pre>"+code.eightCode+"</pre>";
+        })
+        document.getElementsByClassName('img-layout')[8].addEventListener('click',function(){
+            document.getElementById('code').innerHTML = "<pre>"+code.nineCode+"</pre>";
+        })
+        document.getElementsByClassName('img-layout')[9].addEventListener('click',function(){
+            document.getElementById('code').innerHTML = "<pre>"+code.tenCode+"</pre>";
+        })
+    }
+}
+
+metCode4Modal.inicio();
