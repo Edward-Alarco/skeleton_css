@@ -223,6 +223,37 @@ section.installation .container .script {
   background: #dfe6e9;
   padding: 0.5rem 1rem;
   margin-top: 2rem;
+  position: relative;
+}
+
+section.installation .container .script input[type="text"] {
+  width: 100%;
+  background: none;
+  border: none;
+  font-size: 0.85rem;
+  padding: 7px 0;
+  outline: none;
+}
+
+section.installation .container .script button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  padding: 0 1rem;
+  cursor: pointer;
+  background: none;
+  border: none;
+}
+
+section.installation .container .script button:hover i.far {
+  color: #3498db;
+}
+
+section.installation .container .script button i.far {
+  font-size: 1.35rem;
+  cursor: pointer;
+  color: rgba(52, 152, 219, 0.35);
 }
 
 section.installation .container .card {

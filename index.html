@@ -8,6 +8,13 @@
     <title>Skeleton CSS</title>
 </head>
 <body>
+
+    <!-- DEVELOPMENT LINK -->
+    <!-- https://raw.githack.com/Edward-Alarco/skeleton_css/master/css/general-styles.css?token=ANLIZ2VJ6KE2UX3SKDGMLD27W4IV4 -->
+
+    <!-- PRODUCTION LINK -->
+    <!-- https://rawcdn.githack.com/Edward-Alarco/skeleton_css/master/css/general-styles.css?token=ANLIZ2VJ6KE2UX3SKDGMLD27W4IV4 -->
+
     <section class="main">
         <h2>Skeleton CSS</h2>
         <p>- Mini libreria de secciones pre-construidas customizadas -</p>
@@ -39,9 +46,13 @@
         <div class="container">
             <h2>Installation</h2>
             <div class="script">
-                <code>
-&#60;link rel="stylesheet" href=""&#62;
-                </code>
+                <!-- <code>
+&#60;link rel="stylesheet" href="https://rawcdn.githack.com/Edward-Alarco/skeleton_css/master/css/general-styles.css?token=ANLIZ2VJ6KE2UX3SKDGMLD27W4IV4"&#62;
+                </code> -->
+                <input id="link" type="text" value='&#60;link rel="stylesheet" href="https://rawcdn.githack.com/Edward-Alarco/skeleton_css/master/css/general-styles.css?token=ANLIZ2VJ6KE2UX3SKDGMLD27W4IV4"&#62;'>
+                <button onclick="copyLink();">
+                    <i class="far fa-copy"></i>
+                </button>
             </div>
             <div class="card">
                 <div class="left">
@@ -88,6 +99,10 @@
         </div>
     </section>
 
+    <footer>
+        
+    </footer>
+
     <script>
         const button = document.getElementById('btnmodal');
         button.addEventListener('click',function(e){
@@ -102,6 +117,13 @@
             document.getElementById('installation').style.opacity = '0';
             document.getElementById('installation').style.left = '-100%';
         });
+
+        function copyLink(){
+            var link = document.getElementById('link');
+            link.select();
+            link.setSelectionRange(0,9999);
+            document.execCommand('copy');
+        }
     </script>
     <script src="js/modal.js"></script>
     <script src="js/scroll.js"></script>

@@ -150,6 +150,35 @@ section.installation{
             background: #dfe6e9;
             padding: 0.5rem 1rem;
             margin-top: 2rem;
+            position: relative;
+            input[type="text"]{
+                width: 100%;
+                background: none;
+                border: none;
+                font-size: 0.85rem;
+                padding: 7px 0;
+                outline: none;
+            }
+            button{
+                position: absolute;
+                top: 0;
+                right: 0;
+                height: 100%;
+                padding: 0 1rem;
+                cursor: pointer;
+                background: none;
+                border: none;
+                &:hover{
+                    i.far{
+                        color: #3498db;
+                    }
+                }
+                i.far{
+                    font-size: 1.35rem;
+                    cursor: pointer;
+                    color: rgba($color: #3498db, $alpha: 0.35);
+                }
+            }
         }
         .card{
             padding: 1.75rem 1rem;
