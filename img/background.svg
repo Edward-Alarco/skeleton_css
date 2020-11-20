@@ -1,21 +1,21 @@
 <svg width="1440" height="555" viewBox="0 0 1440 555" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g id="Group 11">
-<rect id="Rectangle 17" x="445" y="290" width="550" height="120" rx="2" fill="#D5D8DA"/>
-<rect id="Rectangle 18" x="797" y="435" width="350" height="120" rx="2" fill="#D5D8DA"/>
-<rect id="Rectangle 19" x="270" y="435" width="502" height="120" rx="2" fill="#D5D8DA"/>
-<rect id="Rectangle 35" x="694" y="145" width="233" height="120" rx="2" fill="#D5D8DA"/>
-<rect id="Rectangle 33" x="25" y="145" width="233" height="120" rx="2" fill="#D5D8DA"/>
-<rect id="Rectangle 37" x="1346" y="145" width="120" height="120" rx="2" fill="#D5D8DA"/>
-<rect id="Rectangle 34" x="283" y="145" width="386" height="120" rx="2" fill="#D5D8DA"/>
-<rect id="Rectangle 23" x="1020" y="290" width="386" height="120" rx="2" fill="#D5D8DA"/>
-<rect id="Rectangle 24" x="96" y="290" width="324" height="120" rx="2" fill="#D5D8DA"/>
-<rect id="Rectangle 32" x="1172" y="435" width="324" height="120" rx="2" fill="#D5D8DA"/>
-<rect id="Rectangle 25" x="-79" y="435" width="324" height="120" rx="2" fill="#D5D8DA"/>
-<rect id="Rectangle 39" x="242" width="233" height="120" rx="2" fill="#D5D8DA"/>
-<rect id="Rectangle 40" x="500" width="386" height="120" rx="2" fill="#D5D8DA"/>
-<rect id="Rectangle 41" x="-75" width="292" height="120" rx="2" fill="#D5D8DA"/>
-<rect id="Rectangle 42" x="911" width="537" height="120" rx="2" fill="#D5D8DA"/>
-<rect id="Rectangle 36" x="952" y="145" width="369" height="120" rx="2" fill="#D5D8DA"/>
-<rect id="Rectangle 38" x="-49" y="290" width="120" height="120" rx="2" fill="#D5D8DA"/>
+<g id="background">
+<rect id="Rectangle 17" x="445" y="290" width="550" height="120" rx="2" fill="#D5D8DA" fill-opacity="0.075"/>
+<rect id="Rectangle 18" x="797" y="435" width="350" height="120" rx="2" fill="#D5D8DA" fill-opacity="0.075"/>
+<rect id="Rectangle 19" x="270" y="435" width="502" height="120" rx="2" fill="#D5D8DA" fill-opacity="0.075"/>
+<rect id="Rectangle 35" x="694" y="145" width="233" height="120" rx="2" fill="#D5D8DA" fill-opacity="0.075"/>
+<rect id="Rectangle 33" x="25" y="145" width="233" height="120" rx="2" fill="#D5D8DA" fill-opacity="0.075"/>
+<rect id="Rectangle 37" x="1346" y="145" width="120" height="120" rx="2" fill="#D5D8DA" fill-opacity="0.075"/>
+<rect id="Rectangle 34" x="283" y="145" width="386" height="120" rx="2" fill="#D5D8DA" fill-opacity="0.075"/>
+<rect id="Rectangle 23" x="1020" y="290" width="386" height="120" rx="2" fill="#D5D8DA" fill-opacity="0.075"/>
+<rect id="Rectangle 24" x="96" y="290" width="324" height="120" rx="2" fill="#D5D8DA" fill-opacity="0.075"/>
+<rect id="Rectangle 32" x="1172" y="435" width="324" height="120" rx="2" fill="#D5D8DA" fill-opacity="0.075"/>
+<rect id="Rectangle 25" x="-79" y="435" width="324" height="120" rx="2" fill="#D5D8DA" fill-opacity="0.075"/>
+<rect id="Rectangle 39" x="242" width="233" height="120" rx="2" fill="#D5D8DA" fill-opacity="0.075"/>
+<rect id="Rectangle 40" x="500" width="386" height="120" rx="2" fill="#D5D8DA" fill-opacity="0.075"/>
+<rect id="Rectangle 41" x="-75" width="292" height="120" rx="2" fill="#D5D8DA" fill-opacity="0.075"/>
+<rect id="Rectangle 42" x="911" width="537" height="120" rx="2" fill="#D5D8DA" fill-opacity="0.075"/>
+<rect id="Rectangle 36" x="952" y="145" width="369" height="120" rx="2" fill="#D5D8DA" fill-opacity="0.075"/>
+<rect id="Rectangle 38" x="-49" y="290" width="120" height="120" rx="2" fill="#D5D8DA" fill-opacity="0.075"/>
 </g>
 </svg>

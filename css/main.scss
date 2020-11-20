@@ -12,8 +12,13 @@ body{
 }
 section.main{
     width: 100%;
-    height: 100vh;
+    height: 50vh;
+    // background: #3498db;
+    background: url('../img/background.svg'),rgba($color: #3498db, $alpha: 1);
     display: flex;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-clip: content-box;
     justify-content: center;
     align-items: center;
     position: relative;
@@ -22,22 +27,21 @@ section.main{
         font-size: 3.75rem;
         text-transform: uppercase;
         line-height: 1;
-        color: #3498db;
+        color: #fff;
         letter-spacing: 0.025em;
     }
     p{
         font-size: 1rem;
-        color: #696969;
+        color: rgba($color: #fff, $alpha: 0.8);
         font-weight: 400;
         margin: 0.9rem 0;
     }
     div.corner{
-        top: 0;
+        top: -20px;
         z-index: 999;
         right: 50px;
-        position: absolute;
-        background-color: #000;
-        padding: 1.25rem 1rem 0.5rem 1rem;
+        transform: rotate(-180deg);
+        position: absolute;        
         a{
             text-decoration: none;
             width: 100%;
@@ -48,7 +52,7 @@ section.main{
             color: #fff;
             i.fab{
                 color: #fff;
-                font-size: 2rem;
+                font-size: 7rem;
                 margin: 0 0.25rem;
             }
         }
@@ -62,18 +66,20 @@ section.main{
         border-radius: 50%;
         transform: translateX(-50%);
         .bg{
-                width: 50px;
+                width: 40px;
                 animation: pulse 1.5s infinite;
                 display: flex;
                 align-items: center;
                 justify-content: center;
-                height: 50px;
+                height: 40px;
                 border-radius: 50%;
-                background: #000;
+                background: rgba(255, 255, 255, .35);
             a{
                 text-decoration: none;
                 color: #fff;
+                opacity: 0.9;
                 i.fas{
+                    opacity: 0.9;
                     color: #fff;
                     padding: 0.75rem;
                     font-size: 1.25rem;
@@ -93,53 +99,53 @@ section.main{
         justify-content: center;
         align-items: center;
         color: #fff;
-        background-color: #333;
-        box-shadow: -1px 1px 2px #333;
+        // background-color: #fff;
         a{
             color: #fff;
             display: inline-block;
             text-decoration: none;
             i.fas{
-                font-size: 1.25rem;
+                font-size: 2.4rem;
                 padding: 0.75rem;
+                animation: rotate 10s infinite linear;
+                transform-origin: center;
+                transform-box: fill-box;
             }
-        }
-    }
-    div{
-        svg{
-            position: absolute;
-            top: 50%;
-            width: 100%;
-            z-index: -1000;
-            opacity: 0.2;
-            transform: translateY(-50%);
-            left: 0;
         }
     }
 }
 
+@keyframes rotate{
+    from{
+        transform: rotateZ(0deg);
+    }
+    to{
+        transform: rotateZ(360deg);
+    }
+}
 
 @keyframes pulse{
     0%{
-      box-shadow: 0 0 0 0 rgba(0, 0, 0, .85);
+      box-shadow: 0 0 0 0 rgba(255, 255, 255, .75);
     }
     50%{
-      box-shadow: 0 0 0 25px rgba(0, 0, 0, .0);
+      box-shadow: 0 0 0 10px rgba(255, 255, 255, .0);
     }
     100%{
-      box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+      box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
     }
 }
 
 section.installation{
     background-color: #fffffe;
-    position: absolute;
+    position: fixed;
     transition: all .5s ease-in-out;
     top: 0;
     opacity: 0;
     left: -100%;
     width: 100%;
     height: 100vh;
+    z-index: 50;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -233,7 +239,7 @@ section.installation{
 
 section.layouts{
     width: 90%;
-    margin: 4rem auto;
+    margin: 3rem auto;
     display: flex;
     .filters{
         width: 20%;
@@ -247,14 +253,14 @@ section.layouts{
             margin-top: 1.25rem;
             display: flex;
             flex-direction: column;
-            button{
+            button.button{
                 display: inline-block;
-                border-radius: 2px;
+                border-radius: 3px;
                 width: 100%;
                 background: none;
                 color: #222;
                 font-size: 0.9rem;
-                text-align: left;
+                text-align: center;
                 padding: 10px 2px;
                 margin-bottom: 1rem;
                 border: none;
@@ -264,6 +270,10 @@ section.layouts{
                 transition: all .3s ease-in-out;
                 &:active{
                     transform: scale(0.95); 
+                }
+                &.active{
+                    background-color: #3498db;
+                    color: #fff;
                 }
             }
         }
