@@ -36,6 +36,10 @@ section.main{
         font-weight: 400;
         margin: 0.9rem 0;
     }
+    i{
+        color: #fff;
+        font-size: 1rem;
+    }
     div.corner{
         top: -20px;
         z-index: 999;
@@ -243,16 +247,22 @@ section.layouts{
     display: flex;
     .filters{
         width: 20%;
-        h2{
-            font-size: 2rem;
-            letter-spacing: 1px;
-            color: #696969;
-        }
+        position: sticky;
+        top: 0;
         .botones-filtros{
             width: 100%;
-            margin-top: 1.25rem;
+            position: sticky;
+            top: 0;
+            margin-top: 1.5rem;
+            padding-top: 1.5rem;
             display: flex;
             flex-direction: column;
+            h2{
+                font-size: 2rem;
+                letter-spacing: 1px;
+                color: #696969;
+                margin-bottom: 1.5rem;
+            }
             button.button{
                 display: inline-block;
                 border-radius: 3px;

@@ -172,7 +172,68 @@ var code = {
         &#60;div&#62;&#60;/div&#62;
         &#60;div&#62;&#60;/div&#62;
     &#60;/div&#62;
-&#60;/section&#62;`
+&#60;/section&#62;`,
+
+    thirteenCode: `&#60;section class="thirteen"&#62;
+    &#60;div class="container"&#62;
+        &#60;div&#62;&#60;/div&#62;
+        &#60;div&#62;&#60;/div&#62;
+        &#60;div&#62;&#60;/div&#62;
+        &#60;div&#62;&#60;/div&#62;
+        &#60;div&#62;&#60;/div&#62;
+        &#60;div&#62;&#60;/div&#62;
+        &#60;div&#62;&#60;/div&#62;
+        &#60;div&#62;&#60;/div&#62;
+        &#60;div&#62;&#60;/div&#62;
+    &#60;/div&#62;
+&#60;/section&#62;`,
+
+    fourteenCode: `&#60;section class="fourteen"&#62;
+    &#60;div class="container"&#62;
+        &#60;div&#62;&#60;/div&#62;
+        &#60;div&#62;&#60;/div&#62;
+        &#60;div&#62;&#60;/div&#62;
+        &#60;div&#62;&#60;/div&#62;
+        &#60;div&#62;&#60;/div&#62;
+        &#60;div&#62;&#60;/div&#62;
+        &#60;div&#62;&#60;/div&#62;
+    &#60;/div&#62;
+&#60;/section&#62;`,
+
+    fiveteenCode: `&#60;section class="fiveteen"&#62;
+    &#60;div class="container"&#62;
+        &#60;div&#62;&#60;/div&#62;
+        &#60;div&#62;&#60;/div&#62;
+        &#60;div&#62;&#60;/div&#62;
+        &#60;div&#62;&#60;/div&#62;
+        &#60;div&#62;&#60;/div&#62;
+        &#60;div&#62;&#60;/div&#62;
+    &#60;/div&#62;
+&#60;/section&#62;`,
+
+    sixteenCode: `&#60;section class="sixteen"&#62;
+    &#60;div class="container"&#62;
+        &#60;div&#62;&#60;/div&#62;
+        &#60;div&#62;&#60;/div&#62;
+        &#60;div&#62;&#60;/div&#62;
+        &#60;div&#62;&#60;/div&#62;
+        &#60;div&#62;&#60;/div&#62;
+        &#60;div&#62;&#60;/div&#62;
+        &#60;div&#62;&#60;/div&#62;
+    &#60;/div&#62;
+&#60;/section&#62;`,
+
+    seventeenCode: `&#60;section class="seventeen"&#62;
+    &#60;div class="container"&#62;
+        &#60;div&#62;&#60;/div&#62;
+        &#60;div&#62;&#60;/div&#62;
+        &#60;div&#62;&#60;/div&#62;
+        &#60;div&#62;&#60;/div&#62;
+        &#60;div&#62;&#60;/div&#62;
+        &#60;div&#62;&#60;/div&#62;
+    &#60;/div&#62;
+&#60;/section&#62;`,
+
 }
 
 var metCode4Modal = {
@@ -212,6 +273,21 @@ var metCode4Modal = {
         })
         document.getElementsByClassName('img-layout')[11].addEventListener('click',function(){
             document.getElementById('code').innerHTML = "<pre>"+code.twelveCode+"</pre>";
+        })
+        document.getElementsByClassName('img-layout')[12].addEventListener('click',function(){
+            document.getElementById('code').innerHTML = "<pre>"+code.thirteenCode+"</pre>";
+        })
+        document.getElementsByClassName('img-layout')[13].addEventListener('click',function(){
+            document.getElementById('code').innerHTML = "<pre>"+code.fourteenCode+"</pre>";
+        })
+        document.getElementsByClassName('img-layout')[14].addEventListener('click',function(){
+            document.getElementById('code').innerHTML = "<pre>"+code.fiveteenCode+"</pre>";
+        })
+        document.getElementsByClassName('img-layout')[15].addEventListener('click',function(){
+            document.getElementById('code').innerHTML = "<pre>"+code.sixteenCode+"</pre>";
+        })
+        document.getElementsByClassName('img-layout')[16].addEventListener('click',function(){
+            document.getElementById('code').innerHTML = "<pre>"+code.seventeenCode+"</pre>";
         })
     }
 }

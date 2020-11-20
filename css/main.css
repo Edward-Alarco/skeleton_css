@@ -50,6 +50,11 @@ section.main p {
   margin: 0.9rem 0;
 }
 
+section.main i {
+  color: #fff;
+  font-size: 1rem;
+}
+
 section.main div.corner {
   top: -20px;
   z-index: 999;
@@ -350,17 +355,18 @@ section.layouts {
 
 section.layouts .filters {
   width: 20%;
-}
-
-section.layouts .filters h2 {
-  font-size: 2rem;
-  letter-spacing: 1px;
-  color: #696969;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
 }
 
 section.layouts .filters .botones-filtros {
   width: 100%;
-  margin-top: 1.25rem;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  margin-top: 1.5rem;
+  padding-top: 1.5rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -368,6 +374,13 @@ section.layouts .filters .botones-filtros {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+}
+
+section.layouts .filters .botones-filtros h2 {
+  font-size: 2rem;
+  letter-spacing: 1px;
+  color: #696969;
+  margin-bottom: 1.5rem;
 }
 
 section.layouts .filters .botones-filtros button.button {
