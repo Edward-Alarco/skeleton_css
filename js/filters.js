@@ -6,7 +6,8 @@ const buttonGrid = document.getElementById('grid')
 var flexImgs = document.getElementsByClassName('flex')
 var gridImgs = document.getElementsByClassName('grid')
 
-buttonAll.addEventListener('click',function(){
+buttonAll.addEventListener('click',function(e){
+    e.preventDefault();
     for (let i = 0; i < flexImgs.length; i++) {
         flexImgs[i].style.display = 'block'
     }
@@ -18,7 +19,8 @@ buttonAll.addEventListener('click',function(){
     buttonFlex.classList.remove('active');
 })
 
-buttonFlex.addEventListener('click',function(){
+buttonFlex.addEventListener('click',function(e){
+    e.preventDefault();
     for (let i = 0; i < flexImgs.length; i++) {
         flexImgs[i].style.display = 'block'
     }
@@ -30,7 +32,8 @@ buttonFlex.addEventListener('click',function(){
     buttonFlex.classList.add('active');
 })
 
-buttonGrid.addEventListener('click',function(){
+buttonGrid.addEventListener('click',function(e){
+    e.preventDefault();
     for (let i = 0; i < gridImgs.length; i++) {
         gridImgs[i].style.display = 'block'
     }

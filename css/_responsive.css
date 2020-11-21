@@ -1,0 +1,290 @@
+@media all and (max-width: 1235px){
+  section.main h2{
+      font-size: 3.5rem;
+  }
+  section.main p{
+      font-size: 0.9rem;
+      margin: 0.4rem 0 0.75rem 0;
+  }
+  section.main .button{
+      margin-bottom: 0.5rem;
+      margin-top: 0.5rem;
+  }
+  section.main div.corner a i.fa-github-alt{
+      font-size: 6.5rem;  
+  }
+  section.layouts .filters .botones-filtros h2{
+      font-size: 1.75rem;
+      margin-bottom: 1.4rem;
+  }
+  section.layouts{
+      width: 92%;
+  }
+  section.layouts .filters{
+      padding-left: 0.75rem;
+      padding-right: 0.75rem;
+  }
+  section.layouts .container .muestra-de-layouts{
+      width: 92%;
+  }
+  footer .barra-top .contenedor p{
+      font-size: 1.1rem;
+  }
+  footer .barra-top .contenedor div a{
+      font-size: 1.25rem;
+  }
+  footer .contenido-footer .container .firstcolumn h4, footer .contenido-footer .container .secondcolumn h4, footer .contenido-footer .container .thirdcolumn h4{
+      font-size: 1.1rem;
+  }
+  footer .contenido-footer .container .firstcolumn p, footer .contenido-footer .container .thirdcolumn p, footer .contenido-footer .container .secondcolumn ul li a{
+      font-size: 0.825rem;
+  }
+  footer .barra-bottom p{
+      font-size: 0.85rem;
+  }
+}
+
+@media all and (max-width: 1000px){
+  section.layouts{
+      flex-direction: column;
+  }
+  section.layouts .filters{
+    width: 90%;
+    margin: 0 auto;
+    position: relative;
+  }
+  section.layouts .filters .botones-filtros{
+    display: flex;
+    flex-direction: row;
+  }
+  section.layouts .filters .botones-filtros h2{
+    display: none;
+  }
+  section.layouts .container .muestra-de-layouts{
+    width: 100%;
+  }
+  section.main h2{
+    font-size: 3rem;
+  }
+  section.main .modal-info a i.fas{
+    font-size: 2rem;
+    padding: 0.5rem;
+  }
+  section.main .modal-info{
+    margin: 1rem;
+  }
+  section.main div.corner a i.fa-github-alt{
+    font-size: 5.5rem;
+  }
+}
+
+@media all and (max-width:885px){
+  section.layouts{
+    width: 95%;
+  }
+  section.main h2{
+    font-size: 2.5rem;
+  }
+  section.main p{
+    font-size: 0.85rem;
+  }
+  section.main .button .bg a i.fas{
+    font-size: 1rem;
+  }
+  section.main div.corner{
+    top: -15px;
+  }
+  section.main div.corner a i.fa-github-alt{
+    font-size: 5rem;
+  }
+  section.layouts{
+    margin: 2rem auto 6rem auto;
+  }
+}
+
+@media all and (max-width:845px){
+  section.layouts .container .muestra-de-layouts{
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 5px 5px;
+  }
+}
+
+@media all and (max-width:780px){
+  section.layouts .filters{
+    width: 100%;
+  }  
+}
+
+@media all and (max-width:710px){
+  section.main div.corner{
+    right: 35px;
+  }
+  section.main .modal-info{
+    margin: 0.75rem;
+  }
+  section.main h2{
+    font-size: 2.1rem;
+  }
+  section.main p{
+    font-size: 0.825rem;
+    white-space: pre-wrap;
+    width: 50%;
+    text-align: center;
+  }
+  section.layouts .filters .botones-filtros button.button{
+    font-size: 0.825rem;
+  }
+  footer .barra-top .contenedor p{
+    font-size: 1rem;
+  }
+  footer .barra-top .contenedor div a{
+    font-size: 1.15rem;
+    margin: 0 0.25rem;
+  }
+  footer .contenido-footer .container .firstcolumn, footer .contenido-footer .container .secondcolumn, footer .contenido-footer .container .thirdcolumn{
+    padding: 0 0.5rem;
+  }
+  footer .contenido-footer .container .firstcolumn{
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+  footer .contenido-footer .container{
+    flex-direction: column;
+  }
+  footer .contenido-footer .container .secondcolumn, footer .contenido-footer .container .thirdcolumn{
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+  footer .contenido-footer{
+    padding: 2.5rem 3rem;
+  }
+}
+
+@media all and (max-width:590px){
+  footer .contenido-footer{
+    padding: 2rem 2.75rem;
+  }
+  section.main div.corner{
+    right: 15px;
+  }
+  section.main p{
+    width: 100%;
+  }
+  section.main h2{
+    font-size: 2rem;
+  }
+  section.main .modal-info{
+    margin: 0.5rem;
+  }
+  section.main .button{
+    margin-top: 0.25rem;
+    margin-bottom: 0.25rem;
+  }
+  section.main{
+    height: 45vh;
+  }
+}
+
+@media all and (max-width:535px){
+  section.layouts .filters{
+    padding: 0;
+  }
+  footer .contenido-footer .container .firstcolumn, footer .contenido-footer .container .secondcolumn, footer .contenido-footer .container .thirdcolumn{
+    padding: 0;
+  }
+  section.layouts{
+    width: 96%;
+  }
+  footer .barra-top .contenedor{
+    padding: 0.8rem 1.5rem;
+  }
+  footer .contenido-footer{
+    padding: 1.75rem 1.75rem;
+  }
+  footer .barra-bottom p{
+    font-size: 0.775rem;
+  }
+  section.layouts .container .muestra-de-layouts{
+    grid-gap: 0px;
+  }
+  section.layouts .container .muestra-de-layouts img{
+    width: 80%;
+  }
+  section.layouts .filters .botones-filtros button.button{
+    width: 30% !important;
+  }
+  section.layouts .filters .botones-filtros{
+    justify-content: center;
+    align-items: center;
+  }
+  section.main div.corner a i.fa-github-alt{
+    font-size: 4.5rem;
+  }
+}
+
+@media all and (max-width:480px){
+  section.layouts .filters .botones-filtros button.button{
+    width: 25% !important;
+  }
+  section.main div.corner a i.fa-github-alt{
+    font-size: 3.75rem;
+  }
+  section.layouts .container .muestra-de-layouts img{
+    width: 75%;
+  }
+  section.main div.corner{
+    top: -11px;
+  }
+  section.main .modal-info a i.fas{
+    font-size: 1.75rem;
+  }
+  footer .barra-top .contenedor{
+    padding: 0.8rem 1rem;
+  }
+  footer .contenido-footer{
+    padding: 1.5rem 1.25rem;
+  }
+  section.main p{
+    width: 80%;
+  }
+}
+
+@media all and (max-width:340px){
+  section.main p{
+    width: 75%;
+  }
+  section.main p{
+    font-size: 0.8rem;
+  }
+  section.main div.corner a i.fa-github-alt{
+    font-size: 3.5rem;
+  }
+  section.main .modal-info{
+    margin: 0.25rem;
+  }
+  section.layouts{
+    margin: 1rem auto 4rem auto;
+  }
+  section.main h2{
+    font-size: 1.75rem;
+  }
+}
+
+@media all and (max-width:300px){
+  section.layouts .container .muestra-de-layouts{
+    grid-template-columns: 100%;
+  }
+  section.main h2{
+    font-size: 1.5rem;
+  }
+  footer .barra-top .contenedor{
+    padding: 0.8rem 0.5rem;
+  }
+  footer .contenido-footer{
+    padding: 1rem 0.5rem;
+  }
+}
+
+
+
+

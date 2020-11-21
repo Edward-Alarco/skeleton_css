@@ -47,10 +47,18 @@ section.main p {
   font-size: 1rem;
   color: rgba(255, 255, 255, 0.8);
   font-weight: 400;
-  margin: 0.9rem 0;
+  margin: 0.5rem 0 0.9rem 0;
 }
 
-section.main i {
+section.main div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 0.3rem;
+}
+
+section.main div i {
+  margin: 0 1px;
   color: #fff;
   font-size: 1rem;
 }
@@ -62,28 +70,22 @@ section.main div.corner {
   -webkit-transform: rotate(-180deg);
           transform: rotate(-180deg);
   position: absolute;
+  -webkit-transition: all .1s ease-in-out;
+  transition: all .1s ease-in-out;
+}
+
+section.main div.corner:hover {
+  top: -18px;
+  -webkit-transform: rotate(-185deg);
+          transform: rotate(-185deg);
 }
 
 section.main div.corner a {
   text-decoration: none;
-  width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   color: #fff;
 }
 
-section.main div.corner a i.fab {
+section.main div.corner a i.fa-github-alt {
   color: #fff;
   font-size: 7rem;
   margin: 0 0.25rem;
@@ -347,7 +349,7 @@ section.installation .container .card .rigth p {
 
 section.layouts {
   width: 90%;
-  margin: 3rem auto;
+  margin: 3rem auto 7rem auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -415,15 +417,22 @@ section.layouts .filters .botones-filtros button.button.active {
 section.layouts .container {
   width: 80%;
   margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 section.layouts .container .muestra-de-layouts {
   display: -ms-grid;
   display: grid;
+  width: 98%;
   -ms-grid-columns: (1fr)[3];
       grid-template-columns: repeat(3, 1fr);
-  -ms-grid-rows: (1fr)[4];
-      grid-template-rows: repeat(4, 1fr);
+  -ms-grid-rows: auto;
+      grid-template-rows: auto;
   grid-gap: 10px 20px;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -433,5 +442,159 @@ section.layouts .container .muestra-de-layouts {
 section.layouts .container .muestra-de-layouts img {
   margin: auto;
   cursor: pointer;
+}
+
+footer {
+  bottom: 0;
+  width: 100%;
+}
+
+footer .barra-top {
+  background-color: #3498db;
+  color: #fff;
+  width: 100%;
+}
+
+footer .barra-top .contenedor {
+  width: 95%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 1rem 2.5rem;
+}
+
+footer .barra-top .contenedor p {
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+footer .barra-top .contenedor div a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.5rem;
+  margin: 0 0.5rem;
+}
+
+footer .contenido-footer {
+  width: 100%;
+  padding: 3rem 1.5rem;
+  background-color: #ecf0f1;
+}
+
+footer .contenido-footer .container {
+  width: 95%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #222;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+footer .contenido-footer .container .firstcolumn {
+  width: 33.3333%;
+  padding: 0 1.25rem;
+}
+
+footer .contenido-footer .container .firstcolumn h4 {
+  font-size: 1.25rem;
+  position: relative;
+  padding-bottom: 0.25rem;
+  margin-bottom: 1rem;
+}
+
+footer .contenido-footer .container .firstcolumn h4::before {
+  position: absolute;
+  content: '';
+  border-radius: 50px;
+  bottom: 0;
+  left: 0;
+  width: 50%;
+  background: #3498db;
+  height: 0.25rem;
+}
+
+footer .contenido-footer .container .firstcolumn p {
+  font-size: 0.9rem;
+}
+
+footer .contenido-footer .container .secondcolumn {
+  width: 33.3333%;
+  padding: 0 1.25rem;
+}
+
+footer .contenido-footer .container .secondcolumn h4 {
+  font-size: 1.25rem;
+  position: relative;
+  padding-bottom: 0.25rem;
+  margin-bottom: 0.9rem;
+}
+
+footer .contenido-footer .container .secondcolumn h4::before {
+  position: absolute;
+  content: '';
+  border-radius: 50px;
+  bottom: 0;
+  left: 0;
+  width: 50%;
+  background: #3498db;
+  height: 0.25rem;
+}
+
+footer .contenido-footer .container .secondcolumn ul {
+  list-style: none;
+}
+
+footer .contenido-footer .container .secondcolumn ul li a {
+  color: #222;
+  font-size: 0.9rem;
+}
+
+footer .contenido-footer .container .thirdcolumn {
+  width: 33.3333%;
+  padding: 0 1.25rem;
+}
+
+footer .contenido-footer .container .thirdcolumn h4 {
+  font-size: 1.25rem;
+  position: relative;
+  padding-bottom: 0.25rem;
+  margin-bottom: 1rem;
+}
+
+footer .contenido-footer .container .thirdcolumn h4::before {
+  position: absolute;
+  content: '';
+  border-radius: 50px;
+  bottom: 0;
+  left: 0;
+  width: 50%;
+  background: #3498db;
+  height: 0.25rem;
+}
+
+footer .contenido-footer .container .thirdcolumn p {
+  font-size: 0.9rem;
+}
+
+footer .barra-bottom {
+  bottom: 0;
+  width: 100%;
+  padding: 0.5rem 0;
+  background-color: #bdc3c7;
+}
+
+footer .barra-bottom p {
+  text-align: center;
+  color: #fcfcfc;
+  font-size: 0.9rem;
 }
 /*# sourceMappingURL=main.css.map */

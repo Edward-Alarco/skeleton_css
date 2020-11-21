@@ -31,7 +31,7 @@
             propModal.lightbox_container.style.alignItems = 'center';
             propModal.lightbox_container.style.position = 'fixed';
             propModal.lightbox_container.style.zIndex = '9000';
-            propModal.lightbox_container.style.background = 'rgba(0,0,0,0.8)';
+            propModal.lightbox_container.style.background = 'rgba(0,0,0,0.9)';
             propModal.lightbox_container.style.top = '0';
             propModal.lightbox_container.style.left = '0';
             //Al 1er DIV se le crea un nuevo DIV Hijo, con su respectivo ID
@@ -39,9 +39,7 @@
             //Se selecciona el DIV Hijo
             propModal.modal = document.getElementById('modal');
             //Estilos
-            propModal.modal.style.width = '40%';
-            propModal.modal.style.borderRadius = '3px';
-            propModal.modal.style.border = '5px solid #696969';
+            propModal.modal.style.width = '35%';
             propModal.modal.style.margin = '0 auto';
             propModal.modal.style.padding = '16px';
             propModal.modal.style.background = 'white';
