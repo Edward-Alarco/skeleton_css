@@ -281,7 +281,8 @@ section.installation .container .script {
 }
 
 section.installation .container .script input[type="text"] {
-  width: 100%;
+  width: 96%;
+  overflow: hidden;
   background: none;
   border: none;
   font-size: 0.85rem;

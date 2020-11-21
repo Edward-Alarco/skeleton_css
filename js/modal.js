@@ -27,6 +27,8 @@
             propModal.lightbox_container.style.width = '100%';
             propModal.lightbox_container.style.height = '100%';
             propModal.lightbox_container.style.display = 'flex';
+            propModal.lightbox_container.style.fontFamily = '"Poppins", sans-serif';
+            propModal.lightbox_container.style.fontWeight = '500';
             propModal.lightbox_container.style.justifyContent = 'center';
             propModal.lightbox_container.style.alignItems = 'center';
             propModal.lightbox_container.style.position = 'fixed';
@@ -39,9 +41,12 @@
             //Se selecciona el DIV Hijo
             propModal.modal = document.getElementById('modal');
             //Estilos
-            propModal.modal.style.width = '35%';
+            propModal.modal.style.textAlign = 'left';
+            propModal.modal.style.fontFamily = '"Poppins", sans-serif';
+            propModal.modal.style.fontWeight = '500';
+            propModal.modal.style.borderRight = '10px solid #3498db'
             propModal.modal.style.margin = '0 auto';
-            propModal.modal.style.padding = '16px';
+            propModal.modal.style.padding = '32px';
             propModal.modal.style.background = 'white';
             //Crear parrafo para codigo
             propModal.modal.appendChild(document.createElement('code')).setAttribute('id','code');

@@ -188,7 +188,8 @@ section.installation{
             margin-top: 2rem;
             position: relative;
             input[type="text"]{
-                width: 100%;
+                width: 96%;
+                overflow: hidden;
                 background: none;
                 border: none;
                 font-size: 0.85rem;
