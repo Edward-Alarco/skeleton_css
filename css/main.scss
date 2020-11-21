@@ -15,6 +15,7 @@ section.main{
     height: 50vh;
     // background: #3498db;
     background: url('../img/background.svg'),rgba($color: #3498db, $alpha: 1);
+    background-attachment: fixed;
     display: flex;
     background-size: cover;
     background-repeat: no-repeat;
@@ -142,6 +143,90 @@ section.main{
     }
     100%{
       box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+    }
+}
+
+section.documentation{
+    .barra-top{
+        background-color: #bdc3c7;
+        padding: 10px 0;
+        .content{
+            width: 90%;
+            margin: 0 auto;
+            h2{
+                color: darken($color: #fff, $amount: 1);
+                text-transform: capitalize;
+                letter-spacing: 0.1em;
+            }
+        }
+    }
+    .content-doc,.content-doc2{
+        width: 90%;
+        margin: 0 auto;
+        display: flex;
+        padding-top: 3.5rem;
+        .left{
+            width: 70%;
+            padding-right: 2rem;
+            span.css{
+                margin: 1rem 0;
+                display: block;
+                width: 100%;
+                background-color: #444;
+                padding: 0.5rem;
+                border-radius: 3px;
+                font-size: 0.9rem;
+                color: rgba($color: #fff, $alpha: 0.85);
+            }
+            p{
+                font-size: 0.95rem;
+                color: darken($color: #696969, $amount: 2);
+                margin-bottom: 0.75rem;
+                span.tag{
+                    // background-color: lighten($color: #bdc3c7, $amount: 1);
+                    background-color: rgba($color: #bdc3c7, $alpha: 0.25);
+                    padding: 0px 3px;
+                    border-radius: 3px;
+                    text-align: center;
+                    display: inline-flex;
+                    align-self: center;
+                    align-items: center;
+                    color: darken($color: #222222, $amount: 5);
+                }   
+            }
+        }
+        .right{
+            width: 30%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .card{
+                background-color: #444;
+                padding: 1.25rem;
+                pointer-events: none;
+                border-radius: 3px;
+                width: 100%;
+                color: #fff;
+                font-weight: 500;
+                font-family: 'Times New Roman', Times, serif;
+                .code{
+                    color: #fff;
+                    font-family: 'Times New Roman', Times, serif;
+                    pre{
+                        font-family: 'Times New Roman', Times, serif;
+                    }
+                }
+            }
+        }
+        .left2{
+            width: 25%;
+            img{
+                width: 100%;
+            }
+        }
+        .right2{
+            width: 75%;
+        }
     }
 }
 

@@ -2,14 +2,11 @@ var code = {
     firstCode: `&#60;section class="one"&#62;
     &#60;div class="container"&#62;
         &#60;div class="row"&#62;
-            &#60;div class="col-4"&#62;
-            &#60;/div&#62;
-            &#60;div class="col-8"&#62;
-            &#60;/div&#62;
+            &#60;div class="col-4"&#62;1&#60;/div&#62;
+            &#60;div class="col-8"&#62;2&#60;/div&#62;
         &#60;/div&#62;
         &#60;div class="row"&#62;
-            &#60;div class="col-12"&#62;
-            &#60;/div&#62;
+            &#60;div class="col-12"&#62;3&#60;/div&#62;
         &#60;/div&#62;
     &#60;/div&#62;
 &#60;/section&#62;`,
@@ -17,16 +14,13 @@ var code = {
     secondCode: `&#60;section class="two"&#62;
     &#60;div class="container"&#62;
         &#60;div class="row"&#62;
-            &#60;div class="col-4"&#62;
-            &#60;/div&#62;
+            &#60;div class="col-4"&#62;1&#60;/div&#62;
             &#60;div class="col-8"&#62;
                 &#60;div class="row"&#62;
-                    &#60;div class="col-12"&#62;
-                    &#60;/div&#62;
+                    &#60;div class="col-12"&#62;2&#60;/div&#62;
                 &#60;/div&#62;
                 &#60;div class="row"&#62;
-                    &#60;div class="col-12"&#62;
-                    &#60;/div&#62;
+                    &#60;div class="col-12"&#62;3&#60;/div&#62;
                 &#60;/div&#62;
             &#60;/div&#62;
         &#60;/div&#62;
@@ -36,14 +30,11 @@ var code = {
     thirdCode: `&#60;section class="three"&#62;
     &#60;div class="container"&#62;
         &#60;div class="row"&#62;
-            &#60;div class="col-12"&#62;
-            &#60;/div&#62;
+            &#60;div class="col-12"&#62;1&#60;/div&#62;
         &#60;/div&#62;
         &#60;div class="row"&#62;
-            &#60;div class="col-6"&#62;
-            &#60;/div&#62;
-            &#60;div class="col-6"&#62;
-            &#60;/div&#62;
+            &#60;div class="col-6"&#62;2&#60;/div&#62;
+            &#60;div class="col-6"&#62;3&#60;/div&#62;
         &#60;/div&#62;
     &#60;/div&#62;
 &#60;/section&#62;`,
@@ -51,12 +42,9 @@ var code = {
     fourthCode: `&#60;section class="four"&#62;
     &#60;div class="container"&#62;
         &#60;div class="row"&#62;
-            &#60;div class="col-3"&#62;
-            &#60;/div&#62;
-            &#60;div class="col-6"&#62;
-            &#60;/div&#62;
-            &#60;div class="col-3"&#62;
-            &#60;/div&#62;
+            &#60;div class="col-3"&#62;1&#60;/div&#62;
+            &#60;div class="col-6"&#62;2&#60;/div&#62;
+            &#60;div class="col-3"&#62;3&#60;/div&#62;
         &#60;/div&#62;
     &#60;/div&#62;
 &#60;/section&#62;`,
@@ -64,10 +52,8 @@ var code = {
     fiveCode: `&#60;section class="five"&#62;
     &#60;div class="container"&#62;
         &#60;div class="row"&#62;
-            &#60;div class="col-6"&#62;
-            &#60;/div&#62;
-            &#60;div class="col-6"&#62;
-            &#60;/div&#62;
+            &#60;div class="col-6"&#62;1&#60;/div&#62;
+            &#60;div class="col-6"&#62;2&#60;/div&#62;
         &#60;/div&#62;
     &#60;/div&#62;
 &#60;/section&#62;`,
@@ -75,20 +61,12 @@ var code = {
     sixCode: `&#60;section class="six"&#62;
     &#60;div class="container"&#62;
         &#60;div class="row"&#62;
-            &#60;div class="col-4"&#62;
-                
-            &#60;/div&#62;
-            &#60;div class="col-8"&#62;
-
-            &#60;/div&#62;
+            &#60;div class="col-4"&#62;1&#60;/div&#62;
+            &#60;div class="col-8"&#62;2&#60;/div&#62;
         &#60;/div&#62;
         &#60;div class="row"&#62;
-            &#60;div class="col-8"&#62;
-            
-            &#60;/div&#62;
-            &#60;div class="col-4"&#62;
-                
-            &#60;/div&#62;
+            &#60;div class="col-8"&#62;3&#60;/div&#62;
+            &#60;div class="col-4"&#62;4&#60;/div&#62;
         &#60;/div&#62;
     &#60;/div&#62;
 &#60;/section&#62;`,
@@ -96,12 +74,12 @@ var code = {
     sevenCode: `&#60;section class="seven"&#62;
     &#60;div class="container"&#62;
         &#60;div class="row"&#62;
-            &#60;div class="col-4"&#62;&#60;/div&#62;
-            &#60;div class="col-4"&#62;&#60;/div&#62;
-            &#60;div class="col-4"&#62;&#60;/div&#62;
-            &#60;div class="col-4"&#62;&#60;/div&#62;
-            &#60;div class="col-4"&#62;&#60;/div&#62;
-            &#60;div class="col-4"&#62;&#60;/div&#62;
+            &#60;div class="col-4"&#62;1&#60;/div&#62;
+            &#60;div class="col-4"&#62;2&#60;/div&#62;
+            &#60;div class="col-4"&#62;3&#60;/div&#62;
+            &#60;div class="col-4"&#62;4&#60;/div&#62;
+            &#60;div class="col-4"&#62;5&#60;/div&#62;
+            &#60;div class="col-4"&#62;6&#60;/div&#62;
         &#60;/div&#62;
     &#60;/div&#62;
 &#60;/section&#62;`,
@@ -111,16 +89,15 @@ var code = {
         &#60;div class="row"&#62;
             &#60;div class="col-3"&#62;
                 &#60;div class="row"&#62;
-                    &#60;div class="col-12"&#62;&#60;/div&#62;
-                    &#60;div class="col-12"&#62;&#60;/div&#62;
+                    &#60;div class="col-12"&#62;1&#60;/div&#62;
+                    &#60;div class="col-12"&#62;2&#60;/div&#62;
                 &#60;/div&#62;
             &#60;/div&#62;
-            &#60;div class="col-6"&#62;
-            &#60;/div&#62;
+            &#60;div class="col-6"&#62;3&#60;/div&#62;
             &#60;div class="col-3"&#62;
                 &#60;div class="row"&#62;
-                    &#60;div class="col-12"&#62;&#60;/div&#62;
-                    &#60;div class="col-12"&#62;&#60;/div&#62;
+                    &#60;div class="col-12"&#62;4&#60;/div&#62;
+                    &#60;div class="col-12"&#62;5&#60;/div&#62;
                 &#60;/div&#62;
             &#60;/div&#62;
         &#60;/div&#62;
@@ -130,12 +107,11 @@ var code = {
     nineCode: `&#60;section class="nine"&#62;
     &#60;div class="container"&#62;
         &#60;div class="row"&#62;
-            &#60;div class="col-8"&#62;   
-            &#60;/div&#62;
+            &#60;div class="col-8"&#62;1&#60;/div&#62;
             &#60;div class="col-4"&#62;
                 &#60;div class="row"&#62;
-                    &#60;div class="col-12"&#62;&#60;/div&#62;
-                    &#60;div class="col-12"&#62;&#60;/div&#62;
+                    &#60;div class="col-12"&#62;2&#60;/div&#62;
+                    &#60;div class="col-12"&#62;3&#60;/div&#62;
                 &#60;/div&#62;
             &#60;/div&#62;
         &#60;/div&#62;
@@ -145,92 +121,92 @@ var code = {
     tenCode: `&#60;section class="ten"&#62;
     &#60;div class="container"&#62;
         &#60;div class="row"&#62;
-            &#60;div class="col-12"&#62;&#60;/div&#62;
+            &#60;div class="col-12"&#62;1&#60;/div&#62;
         &#60;/div&#62;
         &#60;div class="row"&#62;
-            &#60;div class="col-4"&#62;&#60;/div&#62;
-            &#60;div class="col-4"&#62;&#60;/div&#62;
-            &#60;div class="col-4"&#62;&#60;/div&#62;
+            &#60;div class="col-4"&#62;2&#60;/div&#62;
+            &#60;div class="col-4"&#62;3&#60;/div&#62;
+            &#60;div class="col-4"&#62;4&#60;/div&#62;
         &#60;/div&#62;
     &#60;/div&#62;
 &#60;/section&#62;`,
 
     elevenCode: `&#60;section class="eleven"&#62;
     &#60;div class="container"&#62;
-        &#60;div&#62;&#60;/div&#62;
-        &#60;div&#62;&#60;/div&#62;
-        &#60;div&#62;&#60;/div&#62;
-        &#60;div&#62;&#60;/div&#62;
-        &#60;div&#62;&#60;/div&#62;
+        &#60;div&#62;1&#60;/div&#62;
+        &#60;div&#62;2&#60;/div&#62;
+        &#60;div&#62;3&#60;/div&#62;
+        &#60;div&#62;4&#60;/div&#62;
+        &#60;div&#62;5&#60;/div&#62;
     &#60;/div&#62;
 &#60;/section&#62;`,
 
     twelveCode: `&#60;section class="twelve"&#62;
     &#60;div class="container"&#62;
-        &#60;div&#62;&#60;/div&#62;
-        &#60;div&#62;&#60;/div&#62;
-        &#60;div&#62;&#60;/div&#62;
-        &#60;div&#62;&#60;/div&#62;
+        &#60;div&#62;1&#60;/div&#62;
+        &#60;div&#62;2&#60;/div&#62;
+        &#60;div&#62;3&#60;/div&#62;
+        &#60;div&#62;4&#60;/div&#62;
     &#60;/div&#62;
 &#60;/section&#62;`,
 
     thirteenCode: `&#60;section class="thirteen"&#62;
     &#60;div class="container"&#62;
-        &#60;div&#62;&#60;/div&#62;
-        &#60;div&#62;&#60;/div&#62;
-        &#60;div&#62;&#60;/div&#62;
-        &#60;div&#62;&#60;/div&#62;
-        &#60;div&#62;&#60;/div&#62;
-        &#60;div&#62;&#60;/div&#62;
-        &#60;div&#62;&#60;/div&#62;
-        &#60;div&#62;&#60;/div&#62;
-        &#60;div&#62;&#60;/div&#62;
+        &#60;div&#62;1&#60;/div&#62;
+        &#60;div&#62;2&#60;/div&#62;
+        &#60;div&#62;3&#60;/div&#62;
+        &#60;div&#62;4&#60;/div&#62;
+        &#60;div&#62;5&#60;/div&#62;
+        &#60;div&#62;6&#60;/div&#62;
+        &#60;div&#62;7&#60;/div&#62;
+        &#60;div&#62;8&#60;/div&#62;
+        &#60;div&#62;9&#60;/div&#62;
     &#60;/div&#62;
 &#60;/section&#62;`,
 
     fourteenCode: `&#60;section class="fourteen"&#62;
     &#60;div class="container"&#62;
-        &#60;div&#62;&#60;/div&#62;
-        &#60;div&#62;&#60;/div&#62;
-        &#60;div&#62;&#60;/div&#62;
-        &#60;div&#62;&#60;/div&#62;
-        &#60;div&#62;&#60;/div&#62;
-        &#60;div&#62;&#60;/div&#62;
-        &#60;div&#62;&#60;/div&#62;
+        &#60;div&#62;1&#60;/div&#62;
+        &#60;div&#62;2&#60;/div&#62;
+        &#60;div&#62;3&#60;/div&#62;
+        &#60;div&#62;4&#60;/div&#62;
+        &#60;div&#62;5&#60;/div&#62;
+        &#60;div&#62;6&#60;/div&#62;
+        &#60;div&#62;7&#60;/div&#62;
     &#60;/div&#62;
 &#60;/section&#62;`,
 
     fiveteenCode: `&#60;section class="fiveteen"&#62;
     &#60;div class="container"&#62;
-        &#60;div&#62;&#60;/div&#62;
-        &#60;div&#62;&#60;/div&#62;
-        &#60;div&#62;&#60;/div&#62;
-        &#60;div&#62;&#60;/div&#62;
-        &#60;div&#62;&#60;/div&#62;
-        &#60;div&#62;&#60;/div&#62;
+        &#60;div&#62;1&#60;/div&#62;
+        &#60;div&#62;2&#60;/div&#62;
+        &#60;div&#62;3&#60;/div&#62;
+        &#60;div&#62;4&#60;/div&#62;
+        &#60;div&#62;5&#60;/div&#62;
+        &#60;div&#62;6&#60;/div&#62;
     &#60;/div&#62;
 &#60;/section&#62;`,
 
     sixteenCode: `&#60;section class="sixteen"&#62;
     &#60;div class="container"&#62;
-        &#60;div&#62;&#60;/div&#62;
-        &#60;div&#62;&#60;/div&#62;
-        &#60;div&#62;&#60;/div&#62;
-        &#60;div&#62;&#60;/div&#62;
-        &#60;div&#62;&#60;/div&#62;
-        &#60;div&#62;&#60;/div&#62;
-        &#60;div&#62;&#60;/div&#62;
+        &#60;div&#62;1&#60;/div&#62;
+        &#60;div&#62;2&#60;/div&#62;
+        &#60;div&#62;3&#60;/div&#62;
+        &#60;div&#62;4&#60;/div&#62;
+        &#60;div&#62;5&#60;/div&#62;
+        &#60;div&#62;6&#60;/div&#62;
+        &#60;div&#62;7&#60;/div&#62;
     &#60;/div&#62;
 &#60;/section&#62;`,
 
     seventeenCode: `&#60;section class="seventeen"&#62;
     &#60;div class="container"&#62;
-        &#60;div&#62;&#60;/div&#62;
-        &#60;div&#62;&#60;/div&#62;
-        &#60;div&#62;&#60;/div&#62;
-        &#60;div&#62;&#60;/div&#62;
-        &#60;div&#62;&#60;/div&#62;
-        &#60;div&#62;&#60;/div&#62;
+        &#60;div&#62;1&#60;/div&#62;
+        &#60;div&#62;2&#60;/div&#62;
+        &#60;div&#62;3&#60;/div&#62;
+        &#60;div&#62;4&#60;/div&#62;
+        &#60;div&#62;5&#60;/div&#62;
+        &#60;div&#62;6&#60;/div&#62;
     &#60;/div&#62;
 &#60;/section&#62;`,
 

@@ -4,9 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/b72be65822.js" crossorigin="anonymous"></script>
+    <!-- Animate.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <!-- FAVICON -->
     <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
     <link rel="icon" href="img/favicon.png" type="image/x-icon">
+    <!-- CSS Customs -->
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/_responsive.css">
     <title>Skeleton CSS</title>
@@ -14,7 +17,7 @@
 <body>
 
     <section class="main">
-        <h2>Skeleton.CSS</h2>
+        <h2 class="animate__animated animate__backInDown">Skeleton.CSS</h2>
         <div>
             <i class="fas fa-bone"></i>
             <i class="fas fa-bone"></i>
@@ -22,8 +25,8 @@
             <i class="fas fa-bone"></i>
             <i class="fas fa-bone"></i>
         </div>
-        <p>- Mini library of custom predesigned sections, fully responsive! -</p>
-        <div class="corner">
+        <p class="animate__animated animate__fadeInLeft animate__delay-1s animate__faster">- Mini library of custom predesigned sections, fully responsive! -</p>
+        <div class="corner animate__fadeIn animate__animated animate__delay-1s">
             <a target="_blank" href="https://github.com/Edward-Alarco/skeleton_css">
                 <i class="fab fa-github-alt"></i>
             </a>                        
@@ -35,12 +38,56 @@
                 </a>
             </div>
         </div>
-        <div class="modal-info">
+        <div class="modal-info animate__fadeIn animate__animated animate__delay-1s">
             <a href="#" id="btnmodal">
                 <i class="fas fa-info-circle"></i>
             </a>
         </div>
         
+    </section>
+
+    <section class="documentation">
+        <div class="barra-top">
+            <div class="content">
+                <h2>documentation</h2>
+            </div>
+        </div>
+        <div class="content-doc">
+            <div class="left">
+                <p>After copying the respective CDN | LINK to bring the minilibrary with the styles, choose between any of the layouts seen. Among all these, a large part uses the Flex organization system and other sections do require Grid.</p>
+                <span class="css">
+                    &#60;link rel="stylesheet" href=""&#62;
+                </span>
+                <p>Copy the HTML code of the layout that was chosen, and paste it in its respective code. It is not necessary to encapsulate it in a <span class="tag">&#60;div&#62;</span>, since each code is already packaged in a <span class="tag">&#60;section&#62;</span> tag.
+                <p>It is 100% advisable not to change or remove the classes already given in the codes. If you want to make any change, it can be done from its respective CSS. In the event of a conflict between classes or styles, their styles may be interposed with the CSS: <span class="tag">!important</span> attribute.</p>
+            </div>
+            <div class="right">
+                <div class="card">
+                    <code><pre>
+&#60;<span style="color: #e2777a;">section</span> class="<span style="color: #7ec699">seven</span>"&#62;
+    &#60;<span style="color: #e2777a;">div</span> class="<span style="color: #7ec699">container</span>"&#62;
+        &#60;<span style="color: #e2777a;">div</span> class="<span style="color: #7ec699">row</span>"&#62;
+            &#60;<span style="color: #e2777a;">div</span> class="<span style="color: #7ec699">col-4</span>"&#62;&#60;/<span style="color: #e2777a;">div</span>&#62;
+            &#60;<span style="color: #e2777a;">div</span> class="<span style="color: #7ec699">col-4</span>"&#62;&#60;/<span style="color: #e2777a;">div</span>&#62;
+            &#60;<span style="color: #e2777a;">div</span> class="<span style="color: #7ec699">col-4</span>"&#62;&#60;/<span style="color: #e2777a;">div</span>&#62;
+            &#60;<span style="color: #e2777a;">div</span> class="<span style="color: #7ec699">col-4</span>"&#62;&#60;/<span style="color: #e2777a;">div</span>&#62;
+            &#60;<span style="color: #e2777a;">div</span> class="<span style="color: #7ec699">col-4</span>"&#62;&#60;/<span style="color: #e2777a;">div</span>&#62;
+            &#60;<span style="color: #e2777a;">div</span> class="<span style="color: #7ec699">col-4</span>"&#62;&#60;/<span style="color: #e2777a;">div</span>&#62;
+        &#60;/<span style="color: #e2777a;">div</span>&#62;
+    &#60;/<span style="color: #e2777a;">div</span>&#62;
+&#60;/<span style="color: #e2777a;">section</span>&#62;</pre></code>
+                </div>
+            </div>
+        </div>
+
+        <div class="content-doc2">
+            <div class="left2">
+                <img src="img/img-example.svg" alt="">
+            </div>
+            <div class="right2">
+
+            </div>
+        </div>
     </section>
 
     <section class="installation" id="installation">
