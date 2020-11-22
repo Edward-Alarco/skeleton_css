@@ -13,6 +13,8 @@
     <!-- CSS Customs -->
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/_responsive.css">
+    <!-- ScrollReveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
     <title>Skeleton CSS</title>
 </head>
 <body>
@@ -53,13 +55,13 @@
     </section>
 
     <section class="documentation">
-        <div class="barra-top">
+        <div class="barra-top animate__animated animate__fadeIn animate__delay-2s">
             <div class="content">
                 <h2>documentation</h2>
             </div>
         </div>
         <div class="content-doc">
-            <div class="left">
+            <div class="left animacion1">
                 <p>After copying the respective CDN | LINK to bring the minilibrary with the styles, choose between any of the layouts seen. Among all these, a large part uses the Flex organization system and other sections do require Grid.</p>
                 <span class="css">
                     <input type="text" value='&#60;link rel="stylesheet" href="https://rawcdn.githack.com/Edward-Alarco/skeleton_css/master/css/general-styles.css?token=ANLIZ2STSVMESRRCZIAG7US7XGXCG"&#62;'>
@@ -70,7 +72,7 @@
                 <p>Copy the HTML code of the layout that was chosen, and paste it in its respective code. It is not necessary to encapsulate it in a <span class="tag">&#60;div&#62;</span>, since each code is already packaged in a <span class="tag">&#60;section&#62;</span> tag.
                 <p>It is 100% advisable not to change or remove the classes already given in the codes. If you want to make any change, it can be done from its respective CSS. In the event of a conflict between classes or styles, their styles may be interposed with the CSS: <span class="tag">!important</span> attribute.</p>
             </div>
-            <div class="right">
+            <div class="right animacion2">
                 <div class="card">
                     <code><pre>
 &#60;<span style="color: #e2777a;">section</span> class="<span style="color: #7ec699">fiveteen</span>"&#62;
@@ -185,7 +187,7 @@
 
     <section class="layouts">
         <div class="filters">
-            <div class="botones-filtros">
+            <div class="botones-filtros animacion3">
                 <h2>Layouts</h2>
                 <button class="button active" id="all">All</button>
                 <button class="button" id="flex">Flex</button>
@@ -193,7 +195,7 @@
             </div>
         </div>
         <div class="container">
-            <div class="muestra-de-layouts" id="layouts">
+            <div class="muestra-de-layouts animacion4" id="layouts">
                 <img src="img/Group 1.svg" alt="" class="img-layout all flex">
                 <img src="img/Group 2.svg" alt="" class="img-layout all flex">
                 <img src="img/Group 3.svg" alt="" class="img-layout all flex">
@@ -215,7 +217,7 @@
         </div>
     </section>
 
-    <footer>
+    <footer class="animacion5">
         <div class="barra-top">
             <div class="contenedor">
                 <p>Contact with me</p>
@@ -235,9 +237,9 @@
                 <div class="secondcolumn">
                     <h4>Other projects</h4>
                     <ul>
-                        <li><a target="_blank" href="https://edward-alarco.github.io/scrollbar-custom.css/">Scrollbar Custom CSS</a></li>
-                        <li><a target="_blank" href="https://edward-alarco.github.io/splash.colors/">Splash - Colors</a></li>
-                        <li><a target="_blank" href="https://github.com/Edward-Alarco/skeleton_css">Fork on GH</a></li>
+                        <li>👆&nbsp;<a target="_blank" href="https://edward-alarco.github.io/scrollbar-custom.css/">Scrollbar Custom CSS</a></li>
+                        <li>💧&nbsp;<a target="_blank" href="https://edward-alarco.github.io/splash.colors/">Splash - Colors</a></li>
+                        <li>🍴&nbsp;<a target="_blank" href="https://github.com/Edward-Alarco/skeleton_css">Fork on GH</a></li>
                     </ul>
                 </div>
                 <div class="thirdcolumn">
@@ -272,6 +274,14 @@
             link.setSelectionRange(0,9999);
             document.execCommand('copy');
         }
+
+        ScrollReveal().reveal('.animacion1', { delay: 1950, origin: 'left', distance: '1px' });
+        ScrollReveal().reveal('.animacion2', { delay: 1950, origin: 'right', distance: '1px' });
+        ScrollReveal().reveal('.left2', { delay: 500, origin: 'left', distance: '1px', easing: 'ease-in-out' });
+        ScrollReveal().reveal('.right2', { delay: 500, origin: 'right', distance: '1px', easing: 'ease-in-out' });
+        ScrollReveal().reveal('.animacion3', { delay: 500, origin: 'left', distance: '1px', easing: 'ease-in-out' });
+        ScrollReveal().reveal('.animacion4', { delay: 500, origin: 'right', distance: '1px', easing: 'ease-in-out' });
+        ScrollReveal().reveal('.animacion5', { delay: 500, origin: 'bottom', distance: '1px', easing: 'ease-in' });
     </script>
     <script src="js/modal.js"></script>
     <script src="js/scroll.js"></script>

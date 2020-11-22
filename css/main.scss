@@ -48,7 +48,7 @@ section.main{
     }
     div.corner{
         top: -20px;
-        z-index: 999;
+        z-index: 49;
         right: 50px;
         transform: rotate(-180deg);
         position: absolute;
@@ -151,6 +151,7 @@ section.documentation{
     padding-bottom: 3.5rem;
     .barra-top{
         background-color: #bdc3c7;
+        z-index: -5;
         padding: 10px 0;
         .content{
             width: 90%;
@@ -199,7 +200,7 @@ section.documentation{
                     border: none;
                     height: 90%;
                     padding: 0;
-                    z-index: 4280;
+                    z-index: 42;
                     padding: 0 1rem;
                     outline: none;
                     animation: all .3s ease-in-out;
