@@ -10,7 +10,7 @@ by [Edward A.](https://github.com/Edward-Alarco)
 Introducir el siguiente CDN | LINK en el Head de tu proyecto:
 
 ```html
-<link rel="stylesheet" href="">
+<link rel="stylesheet" href="https://raw.githubusercontent.com/Edward-Alarco/skeleton_css/master/css/general-styles.css?token=ANLIZ2STSVMESRRCZIAG7US7XGXCG">
 ```
 
 
