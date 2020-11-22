@@ -1,5 +1,5 @@
 # SKELETON.CSS 🦴
-[Ver Proyecto 👀](https://edward-alarco.github.io/skeleton_css/)
+[Ver Proyecto 👀](skeleton-css.surge.sh/)
 
 Mini libreria para copiar y pegar diversas secciones ya pre-construidas totalmente responsives! 🛠
 
