@@ -222,6 +222,11 @@ section.main .modal-info a i.fas {
   }
 }
 
+section.documentation {
+  background: #ecf0f1;
+  padding-bottom: 3.5rem;
+}
+
 section.documentation .barra-top {
   background-color: #bdc3c7;
   padding: 10px 0;
@@ -244,6 +249,9 @@ section.documentation .content-doc, section.documentation .content-doc2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   padding-top: 3.5rem;
 }
 
@@ -259,8 +267,47 @@ section.documentation .content-doc .left span.css, section.documentation .conten
   background-color: #444;
   padding: 0.5rem;
   border-radius: 3px;
+  position: relative;
+}
+
+section.documentation .content-doc .left span.css input[type="text"], section.documentation .content-doc2 .left span.css input[type="text"] {
+  background: none;
+  border: none;
   font-size: 0.9rem;
   color: rgba(255, 255, 255, 0.85);
+  font-family: 'Poppins', sans-serif;
+  width: 100%;
+  outline: none !important;
+  pointer-events: none;
+}
+
+section.documentation .content-doc .left span.css button, section.documentation .content-doc2 .left span.css button {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  border-radius: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  background: #444;
+  border: none;
+  height: 90%;
+  padding: 0;
+  z-index: 4280;
+  padding: 0 1rem;
+  outline: none;
+  -webkit-animation: all .3s ease-in-out;
+          animation: all .3s ease-in-out;
+  cursor: pointer;
+  text-align: center;
+}
+
+section.documentation .content-doc .left span.css button i.fa-copy, section.documentation .content-doc2 .left span.css button i.fa-copy {
+  font-size: 1.5rem;
+  color: rgba(52, 152, 219, 0.75);
+}
+
+section.documentation .content-doc .left span.css button:active i.fa-copy, section.documentation .content-doc2 .left span.css button:active i.fa-copy {
+  font-size: 1.45rem;
 }
 
 section.documentation .content-doc .left p, section.documentation .content-doc2 .left p {
@@ -270,7 +317,7 @@ section.documentation .content-doc .left p, section.documentation .content-doc2 
 }
 
 section.documentation .content-doc .left p span.tag, section.documentation .content-doc2 .left p span.tag {
-  background-color: rgba(189, 195, 199, 0.25);
+  background: #fafafa;
   padding: 0px 3px;
   border-radius: 3px;
   text-align: center;
@@ -300,7 +347,7 @@ section.documentation .content-doc .right, section.documentation .content-doc2 .
 
 section.documentation .content-doc .right .card, section.documentation .content-doc2 .right .card {
   background-color: #444;
-  padding: 1.25rem;
+  padding: 1.5rem 3.5rem;
   pointer-events: none;
   border-radius: 3px;
   width: 100%;
@@ -322,12 +369,47 @@ section.documentation .content-doc .left2, section.documentation .content-doc2 .
   width: 25%;
 }
 
-section.documentation .content-doc .left2 img, section.documentation .content-doc2 .left2 img {
+section.documentation .content-doc .left2 div, section.documentation .content-doc2 .left2 div {
+  width: 87.5%;
+  margin: 0 auto;
+}
+
+section.documentation .content-doc .left2 div svg, section.documentation .content-doc2 .left2 div svg {
   width: 100%;
 }
 
 section.documentation .content-doc .right2, section.documentation .content-doc2 .right2 {
   width: 75%;
+}
+
+section.documentation .content-doc .right2 .content-texto, section.documentation .content-doc2 .right2 .content-texto {
+  margin-left: 2rem;
+}
+
+section.documentation .content-doc .right2 .content-texto p, section.documentation .content-doc2 .right2 .content-texto p {
+  font-size: 0.95rem;
+  color: #646464;
+  margin-bottom: 0.75rem;
+}
+
+section.documentation .content-doc .right2 .content-texto h5, section.documentation .content-doc2 .right2 .content-texto h5 {
+  margin-top: 1rem;
+  font-size: 1.25rem;
+  margin-bottom: 0.75rem;
+}
+
+section.documentation .content-doc .right2 .content-texto span, section.documentation .content-doc2 .right2 .content-texto span {
+  display: block;
+  margin: 1rem 0;
+  pointer-events: none;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  background-color: #444;
+  padding: 0.5rem;
+  border-radius: 3px;
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.85);
 }
 
 section.installation {
@@ -706,5 +788,23 @@ footer .barra-bottom p {
   text-align: center;
   color: #fcfcfc;
   font-size: 0.9rem;
+}
+
+@media all and (max-width: 885px) {
+  section.documentation .content-doc .left span.css button, section.documentation .content-doc2 .left span.css button {
+    height: 100%;
+  }
+  section.documentation .content-doc .left span.css button:active i.fa-copy, section.documentation .content-doc2 .left span.css button:active i.fa-copy {
+    font-size: 1.05rem;
+  }
+}
+
+@media all and (max-width: 590px) {
+  section.documentation .content-doc .left span.css button, section.documentation .content-doc2 .left span.css button {
+    height: 100%;
+  }
+  section.documentation .content-doc .left span.css button:active i.fa-copy, section.documentation .content-doc2 .left span.css button:active i.fa-copy {
+    font-size: 0.9rem;
+  }
 }
 /*# sourceMappingURL=main.css.map */

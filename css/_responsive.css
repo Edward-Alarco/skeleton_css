@@ -2,8 +2,35 @@
   section.main h2{
       font-size: 3.5rem;
   }
+  section.documentation .content-doc .right .card, section.documentation .content-doc2 .right .card{
+    padding: 1.5rem 2.5rem;
+  }
   section.installation .container h2{
     font-size: 2.25rem;
+  }
+  section.documentation .content-doc .left, section.documentation .content-doc2 .left{
+    width: 67.5%;
+  }
+  section.documentation .content-doc .right, section.documentation .content-doc2 .right{
+    width: 32.5%;
+  }
+  section.documentation .content-doc .left p, section.documentation .content-doc2 .left p, section.documentation .content-doc .right2 .content-texto p, section.documentation .content-doc2 .right2 .content-texto p{
+    font-size: 0.9rem;
+  }
+  section.documentation .content-doc .right2 .content-texto h5, section.documentation .content-doc2 .right2 .content-texto h5{
+    font-size: 1.1rem;
+    margin-top: 0.9rem;
+    margin-bottom: 0.5rem;
+  }
+  section.documentation .content-doc .right2 .content-texto span, section.documentation .content-doc2 .right2 .content-texto span{
+    font-size: 0.85rem;
+    margin: 0.75rem 0;
+  }
+  section.documentation .content-doc .left2 div, section.documentation .content-doc2 .left2 div{
+    width: 90%;
+  }
+  section.documentation .content-doc .left p span.tag, section.documentation .content-doc2 .left p span.tag{
+    font-size: 0.85rem;
   }
   section.installation .container .script{
     margin-top: 1.5rem;
@@ -60,6 +87,31 @@
   section.layouts{
       flex-direction: column;
   }
+  section.documentation .content-doc .right .card, section.documentation .content-doc2 .right .card{
+    padding: 1.25rem;
+    font-size: 0.9rem;
+  }
+  section.documentation .content-doc .left2 div, section.documentation .content-doc2 .left2 div{
+    width: 97.5%;
+  }
+  section.documentation .barra-top .content h2{
+    font-size: 1.4rem;
+    letter-spacing: 0.075em;
+  }
+  section.documentation .content-doc, section.documentation .content-doc2{
+    padding-top: 3rem;
+  }
+  section.documentation .content-doc .right2 .content-texto span, section.documentation .content-doc2 .right2 .content-texto span{
+    font-size: 0.8rem;
+    margin: 0.6rem 0;
+  }
+  section.documentation .content-doc .left p, section.documentation .content-doc2 .left p, section.documentation .content-doc .right2 .content-texto p, section.documentation .content-doc2 .right2 .content-texto p{
+    font-size: 0.85rem;
+  }
+  section.documentation .content-doc .left span.css, section.documentation .content-doc2 .left span.css{
+    font-size: 0.85rem;
+    margin: 0.75rem 0;
+  }
   section.layouts .filters{
     width: 90%;
     margin: 0 auto;
@@ -100,6 +152,56 @@
 }
 
 @media all and (max-width:885px){
+  section.documentation .content-doc .left span.css button, section.documentation .content-doc2 .left span.css button{
+    padding: 0 0.95rem;
+  }
+  section.documentation .content-doc, section.documentation .content-doc2{
+    padding-top: 2.5rem;
+  }
+  section.documentation .content-doc .left span.css button i.fa-copy, section.documentation .content-doc2 .left span.css button i.fa-copy{
+    font-size: 1.2rem;
+  }
+  section.documentation .content-doc .left p, section.documentation .content-doc2 .left p, section.documentation .content-doc .right2 .content-texto p, section.documentation .content-doc2 .right2 .content-texto p{
+    font-size: 0.8rem;
+  }
+  section.documentation .content-doc .left span.css, section.documentation .content-doc2 .left span.css{
+    font-size: 0.8rem;
+    margin: 0.6rem 0;
+  }
+  section.documentation .content-doc .left span.css input[type="text"], section.documentation .content-doc2 .left span.css input[type="text"]{
+    font-size: 0.8rem;
+  }
+  section.documentation .content-doc .right .card, section.documentation .content-doc2 .right .card{
+    padding: 1rem;
+    font-size: 0.85rem;
+  }
+  section.documentation .content-doc .left, section.documentation .content-doc2 .left{
+    width: 62.5%;
+    padding-right: 1.25rem;
+  }
+  section.documentation .content-doc .right2, section.documentation .content-doc2 .right2{
+    width: 72.5%;
+  }
+  section.documentation .content-doc .left2, section.documentation .content-doc2 .left2{
+    width: 27.5%;
+  }
+  section.documentation .content-doc .right, section.documentation .content-doc2 .right{
+    width: 37.5%;
+  }
+  section.documentation .content-doc .left p span.tag, section.documentation .content-doc2 .left p span.tag{
+    font-size: 0.8rem;
+  }
+  section.documentation .content-doc .right2 .content-texto h5, section.documentation .content-doc2 .right2 .content-texto h5{
+    font-size: 1.05rem;
+    margin-top: 0.75rem;
+  }
+  section.documentation .content-doc .left2 div, section.documentation .content-doc2 .left2 div{
+    width: 100%;
+  }
+  section.documentation .content-doc .right2 .content-texto span, section.documentation .content-doc2 .right2 .content-texto span{
+    font-size: 0.75rem;
+    margin: 0.5rem 0;
+  }
   section.layouts{
     width: 95%;
   }
@@ -128,6 +230,21 @@
     grid-template-columns: repeat(2,1fr);
     grid-gap: 5px 5px;
   }
+  section.documentation .content-doc .left, section.documentation .content-doc2 .left{
+    width: 60%;
+  }
+  section.documentation .content-doc .right, section.documentation .content-doc2 .right{
+    width: 40%;
+  }
+  section.documentation .content-doc .left2, section.documentation .content-doc2 .left2{
+    width: 30%;
+  }
+  section.documentation .content-doc .right2, section.documentation .content-doc2 .right2{
+    width: 70%;
+  }
+  section.documentation .content-doc .right2 .content-texto, section.documentation .content-doc2 .right2 .content-texto{
+    margin-left: 1.5rem;
+  }
 }
 
 @media all and (max-width:780px){
@@ -140,9 +257,45 @@
   section.installation .container .script{
     margin-top: 1.25rem;
   }
+  section.documentation .content-doc .left span.css input[type="text"], section.documentation .content-doc2 .left span.css input[type="text"]{
+    font-size: 0.75rem;
+  }
+  section.documentation .content-doc, section.documentation .content-doc2{
+    padding-top: 2rem;
+  }
 }
 
 @media all and (max-width:710px){
+  section.documentation .content-doc{
+    flex-direction: column;
+  }
+  section.documentation .content-doc .right2 .content-texto span, section.documentation .content-doc2 .right2 .content-texto span{
+    display: inline;
+    margin: 0.4rem 0.5rem 0.5rem 0;
+  }
+  section.documentation{
+    padding-bottom: 2.5rem;
+  }
+  section.documentation .content-doc .right2, section.documentation .content-doc2 .right2{
+    width: 100%;
+  }
+  section.documentation .content-doc .right2 .content-texto, section.documentation .content-doc2 .right2 .content-texto{
+    margin-left: 0;
+  }
+  section.documentation .content-doc .left2, section.documentation .content-doc2 .left2{
+    width: 35%;
+  }
+  section.documentation .content-doc2{
+    flex-direction: column-reverse;
+  }
+  section.documentation .content-doc .left, section.documentation .content-doc2 .left{
+    width: 100%;
+    padding-right: 0;
+  }
+  section.documentation .content-doc .right, section.documentation .content-doc2 .right{
+    width: 100%;
+    margin: 0.75rem 0;
+  }
   section.installation .container .card{
     display: block;
   }
@@ -224,6 +377,18 @@
 }
 
 @media all and (max-width:590px){
+  section.documentation .content-doc .left span.css button i.fa-copy, section.documentation .content-doc2 .left span.css button i.fa-copy{
+    font-size: 0.95rem;
+  }
+  section.documentation .content-doc .left span.css button, section.documentation .content-doc2 .left span.css button{
+    padding: 0 0.9rem;
+  }
+  section.documentation .content-doc .left p, section.documentation .content-doc2 .left p, section.documentation .content-doc .right2 .content-texto p, section.documentation .content-doc2 .right2 .content-texto p{
+    font-size: 0.75rem;
+  }
+  section.documentation .barra-top .content h2{
+    text-align: center;
+  }
   footer .contenido-footer{
     padding: 2rem 2.75rem;
   }
@@ -276,6 +441,30 @@
   footer .barra-bottom p{
     font-size: 0.775rem;
   }
+  section.documentation .content-doc .left p, section.documentation .content-doc2 .left p, section.documentation .content-doc .right2 .content-texto p, section.documentation .content-doc2 .right2 .content-texto p{
+    margin-bottom: 0.5rem;
+  }
+  section.documentation .content-doc .right .card, section.documentation .content-doc2 .right .card{
+    padding: 0.85rem;
+    font-size: 0.8rem;
+  }
+  section.documentation .content-doc .left p span.tag, section.documentation .content-doc2 .left p span.tag{
+    font-size: 0.75rem;
+  }
+  section.documentation .content-doc .right2 .content-texto span, section.documentation .content-doc2 .right2 .content-texto span{
+    font-size: 0.7rem;
+  }
+  section.documentation .content-doc .left2, section.documentation .content-doc2 .left2{
+    width: 37.5%;
+    margin: 0.75rem 0;
+  }
+  section.documentation{
+    padding-bottom: 2rem;
+  }
+  section.documentation .barra-top .content h2{
+    font-size: 1.2rem;
+    letter-spacing: 0.05em;
+  }
   section.layouts .container .muestra-de-layouts{
     grid-gap: 0px;
   }
@@ -300,6 +489,9 @@
 @media all and (max-width:480px){
   section.installation .cerrar a{
     margin: 1rem;
+  }
+  section.documentation .content-doc .right2 .content-texto span, section.documentation .content-doc2 .right2 .content-texto span{
+    display: block;
   }
   section.layouts .filters .botones-filtros button.button{
     width: 25% !important;
@@ -348,11 +540,24 @@
   section.installation .cerrar a i.fas{
     font-size: 1.25rem;
   }
+  section.documentation .content-doc .left2, section.documentation .content-doc2 .left2{
+    width: 52.5%;
+    margin: 0.5rem 0;
+  }
 }
 
 @media all and (max-width:340px){
   section.installation .cerrar a{
     margin: 0.5rem;
+  }
+  section.documentation .content-doc2{
+    padding-top: 1rem;
+  }
+  section.documentation .content-doc{
+    padding-top: 1.25rem;
+  }
+  section.documentation .content-doc .left2, section.documentation .content-doc2 .left2{
+    width: 75%;
   }
   #code{
     font-size: 13px !important;
@@ -393,6 +598,9 @@
   }
   section.main h2{
     font-size: 1.5rem;
+  }
+  section.documentation .content-doc .left2, section.documentation .content-doc2 .left2{
+    width: 85%;
   }
   footer .barra-top .contenedor{
     padding: 0.8rem 0.5rem;

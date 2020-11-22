@@ -147,6 +147,8 @@ section.main{
 }
 
 section.documentation{
+    background: #ecf0f1;
+    padding-bottom: 3.5rem;
     .barra-top{
         background-color: #bdc3c7;
         padding: 10px 0;
@@ -164,6 +166,7 @@ section.documentation{
         width: 90%;
         margin: 0 auto;
         display: flex;
+        align-items: center;
         padding-top: 3.5rem;
         .left{
             width: 70%;
@@ -175,16 +178,50 @@ section.documentation{
                 background-color: #444;
                 padding: 0.5rem;
                 border-radius: 3px;
-                font-size: 0.9rem;
-                color: rgba($color: #fff, $alpha: 0.85);
+                position: relative;
+                input[type="text"]{
+                    background: none;
+                    border: none;
+                    font-size: 0.9rem;
+                    color: rgba($color: #fff, $alpha: 0.85);
+                    font-family: 'Poppins', sans-serif;
+                    width: 100%;
+                    outline: none !important;
+                    pointer-events: none;
+                }
+                button{
+                    position: absolute;
+                    right: 0;
+                    top: 50%;
+                    border-radius: 50%;
+                    transform: translateY(-50%);
+                    background: #444;
+                    border: none;
+                    height: 90%;
+                    padding: 0;
+                    z-index: 4280;
+                    padding: 0 1rem;
+                    outline: none;
+                    animation: all .3s ease-in-out;
+                    cursor: pointer;
+                    text-align: center;
+                    i.fa-copy{
+                        font-size: 1.5rem;
+                        color: rgba($color: #3498db, $alpha: 0.75);
+                    }
+                    &:active{
+                        i.fa-copy{
+                            font-size: 1.45rem;
+                        }
+                    }
+                }
             }
             p{
                 font-size: 0.95rem;
                 color: darken($color: #696969, $amount: 2);
                 margin-bottom: 0.75rem;
                 span.tag{
-                    // background-color: lighten($color: #bdc3c7, $amount: 1);
-                    background-color: rgba($color: #bdc3c7, $alpha: 0.25);
+                    background: darken($color: #ffffff, $amount: 2);
                     padding: 0px 3px;
                     border-radius: 3px;
                     text-align: center;
@@ -202,7 +239,7 @@ section.documentation{
             align-items: center;
             .card{
                 background-color: #444;
-                padding: 1.25rem;
+                padding: 1.5rem 3.5rem;
                 pointer-events: none;
                 border-radius: 3px;
                 width: 100%;
@@ -220,15 +257,44 @@ section.documentation{
         }
         .left2{
             width: 25%;
-            img{
-                width: 100%;
+            div{
+                width: 87.5%;
+                margin: 0 auto;
+                svg{
+                    width: 100%;
+                }
             }
         }
         .right2{
             width: 75%;
+            .content-texto{
+                margin-left: 2rem;
+                p{
+                    font-size: 0.95rem;
+                    color: darken($color: #696969, $amount: 2);
+                    margin-bottom: 0.75rem;   
+                }
+                h5{
+                    margin-top: 1rem;
+                    font-size: 1.25rem;
+                    margin-bottom: 0.75rem;
+                }
+                span{
+                    display: block;
+                    margin: 1rem 0;
+                    pointer-events: none;
+                    width: fit-content;
+                    background-color: #444;
+                    padding: 0.5rem;
+                    border-radius: 3px;
+                    font-size: 0.9rem;
+                    color: rgba($color: #fff, $alpha: 0.85);
+                }
+            }
         }
     }
 }
+
 
 section.installation{
     background-color: #fffffe;
@@ -522,6 +588,26 @@ footer{
             text-align: center;
             color: darken($color: #fff, $amount: 1);
             font-size: 0.9rem;
+        }
+    }
+}
+@media all and (max-width:885px){
+    section.documentation .content-doc .left span.css button, section.documentation .content-doc2 .left span.css button{
+        height: 100%;
+        &:active{
+            i.fa-copy{
+                font-size: 1.05rem;
+            }
+        }
+    }
+}
+@media all and (max-width:590px){
+    section.documentation .content-doc .left span.css button, section.documentation .content-doc2 .left span.css button{
+        height: 100%;
+        &:active{
+            i.fa-copy{
+                font-size: 0.9rem;
+            }
         }
     }
 }
